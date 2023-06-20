@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class AnimalStatBonus : MonoBehaviour
 {
-    TestCoin testCoin;
-    public float coinProductionMultiplier;
+    CoinManager coinManager;
+    public float coinProductionMultiplier = 1;
     public float coinProductionSpeedDecrease;
     
     void Start()
     {
-       testCoin = FindObjectOfType<TestCoin>(); 
+       coinManager = FindObjectOfType<CoinManager>(); 
     }
 
     
