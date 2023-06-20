@@ -17,11 +17,11 @@ public class ShopItemButton : MonoBehaviour
     public void BuyItem()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        Player playerScript = player.GetComponent<Player>();
+        CoinManager playerCoins = player.GetComponent<CoinManager>();
 
-        if (playerScript.coins >= cost)
+        if (playerCoins.coins >= cost)
         {
-            playerScript.coins -= cost;
+            playerCoins.coins -= cost;
             Debug.Log("Item bought!");
         }
         else
