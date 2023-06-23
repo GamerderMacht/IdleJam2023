@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11145981673336645838492a2d98e247, type: 3}
   m_Name: Renderer2D
   m_EditorClassIdentifier: 
-  debugShaders:
-    debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
+  <isInvalidated>k__BackingField: 0
+  debugShaders: {debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}, hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}}
   m_RendererFeatures: []
-  m_RendererFeatureMap: 
+  m_RendererFeatureMap: []
   m_UseNativeRenderPass: 0
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 1, z: 0}
@@ -25,15 +25,27 @@ MonoBehaviour:
   - name: Multiply
     maskTextureChannel: 0
     blendMode: 1
+    <isDirty>k__BackingField: 0
+    <hasRenderTarget>k__BackingField: 0
+    renderTargetHandleId: 650
   - name: Additive
     maskTextureChannel: 0
     blendMode: 0
+    <isDirty>k__BackingField: 0
+    <hasRenderTarget>k__BackingField: 0
+    renderTargetHandleId: 651
   - name: Multiply with Mask
     maskTextureChannel: 1
     blendMode: 1
+    <isDirty>k__BackingField: 0
+    <hasRenderTarget>k__BackingField: 0
+    renderTargetHandleId: 652
   - name: Additive with Mask
     maskTextureChannel: 1
     blendMode: 0
+    <isDirty>k__BackingField: 0
+    <hasRenderTarget>k__BackingField: 0
+    renderTargetHandleId: 653
   m_UseDepthStencilBuffer: 1
   m_UseCameraSortingLayersTexture: 0
   m_CameraSortingLayersTextureBound: -1
@@ -44,7 +56,9 @@ MonoBehaviour:
   m_ShapeLightVolumeShader: {fileID: 4800000, guid: 7e60080c8cd24a2468cb08b4bfee5606, type: 3}
   m_PointLightShader: {fileID: 4800000, guid: e35a31e1679aeff489e202f5cc4853d5, type: 3}
   m_PointLightVolumeShader: {fileID: 4800000, guid: c7d04ca57e5449d49ad9cee1c604bc26, type: 3}
-  m_BlitShader: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+  m_CoreBlitShader: {fileID: 4800000, guid: 93446b5c5339d4f00b85c159e1159b7c, type: 3}
+  m_BlitHDROverlay: {fileID: 4800000, guid: a89bee29cffa951418fc1e2da94d1959, type: 3}
+  m_CoreBlitColorAndDepthPS: {fileID: 4800000, guid: d104b2fc1ca6445babb8e90b0758136b, type: 3}
   m_SamplingShader: {fileID: 4800000, guid: 04c410c9937594faa893a11dceb85f7e, type: 3}
   m_ProjectedShadowShader: {fileID: 4800000, guid: ce09d4a80b88c5a4eb9768fab4f1ee00, type: 3}
   m_SpriteShadowShader: {fileID: 4800000, guid: 44fc62292b65ab04eabcf310e799ccf6, type: 3}
@@ -53,6 +67,16 @@ MonoBehaviour:
   m_FallbackErrorShader: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
   m_PostProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   m_FallOffLookup: {fileID: 2800000, guid: 5688ab254e4c0634f8d6c8e0792331ca, type: 3}
+  <spriteSelfShadowMaterial>k__BackingField: []
+  <spriteUnshadowMaterial>k__BackingField: []
+  <geometryUnshadowMaterial>k__BackingField: []
+  <projectedShadowMaterial>k__BackingField: []
+  <stencilOnlyShadowMaterial>k__BackingField: []
+  <isNormalsRenderTargetValid>k__BackingField: 0
+  <normalsRenderTargetScale>k__BackingField: 0
+  normalsRenderTargetId: 180
+  shadowsRenderTargetId: 654
+  cameraSortingLayerRenderTargetId: 655
   m_DefaultMaterialType: 0
   m_DefaultCustomMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_DefaultLitMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
