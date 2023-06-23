@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
+using TMPro;
 
 public class CoinManager : MonoBehaviour
 {
@@ -12,7 +13,8 @@ public class CoinManager : MonoBehaviour
     public float afkCoinGain = 0;
     public float baseCoinGainDelay = 5;
     public float afkCoinGainDelay = 5;
-    public Text coinTxt;
+    public TextMeshProUGUI coinTxt;
+    [SerializeField] TextMeshProUGUI mutationText;
 
     void Awake()
     {
@@ -30,16 +32,21 @@ public class CoinManager : MonoBehaviour
     void Start()
     {
         animalStatBonus = FindObjectOfType<AnimalStatBonus>();
+        coinTxt.text = "0";
+        mutationText.text = "0";
+        //finds the gameobject text component if not assigned in inspector
+        //if(coinTxt == null) GameObject.FindWithTag("CoinNumber").GetComponent<TextMeshPro>();
         StartCoroutine(CoinFarm());
     }
     void Update()
     {
         //Just commented it to avoid errors while playtesting, feel free to uncomment once you add the text back to the scene
-        //coinTxt.text = "Coins: " + coins;
+        
     }
     public void Click() //Handles the player receiving coins by clicking on plants
     {
         coins += 1;
+        coinTxt.text = coins.ToString();
     }
     IEnumerator CoinFarm() //handles the coins the player gets over time
     {
@@ -48,9 +55,16 @@ public class CoinManager : MonoBehaviour
             afkCoinGain = (baseCoinGain * animalStatBonus.coinProductionMultiplier);
             afkCoinGainDelay = (baseCoinGainDelay - animalStatBonus.coinProductionSpeedDecrease);
             coins += afkCoinGain;
+            UpdateCanvas();
             Debug.Log(coins);
 
             yield return new WaitForSeconds (afkCoinGainDelay);
         }
+    }
+
+    public void UpdateCanvas()
+    {
+        coinTxt.text = coins.ToString();
+       //mutationText.text = mutationPoints.ToString();
     }
 }
