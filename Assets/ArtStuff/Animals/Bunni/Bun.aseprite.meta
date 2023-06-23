@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e5e7e6ec1abd9b4408a24787eebf36c2
+guid: 75596f5811516c64996083bc381d257b
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,4 +124,4 @@ ScriptedImporter:
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 64, y: 64}
+  canvasSize: {x: 32, y: 32}
