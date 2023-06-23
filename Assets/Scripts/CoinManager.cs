@@ -40,7 +40,6 @@ public class CoinManager : MonoBehaviour
     }
     void Update()
     {
-        //Just commented it to avoid errors while playtesting, feel free to uncomment once you add the text back to the scene
         
     }
     public void Click() //Handles the player receiving coins by clicking on plants

@@ -670,7 +670,7 @@ Transform:
   - {fileID: 745964516}
   - {fileID: 87607737}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &680785793
 GameObject:
@@ -1149,57 +1149,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055946952}
   m_CullTransparentMesh: 1
---- !u!1 &1066686689
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1066686691}
-  - component: {fileID: 1066686692}
-  m_Layer: 0
-  m_Name: PlayerCoins
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1066686691
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066686689}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.38910452, y: -0.7003921, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1066686692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066686689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ba689fe3c46ff641b8f671541c354f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coins: 0
-  baseCoinGain: 1
-  afkCoinGain: 1
-  baseCoinGainDelay: 5
-  afkCoinGainDelay: 5
-  coinTxt: {fileID: 0}
-  mutationText: {fileID: 0}
 --- !u!1001 &1087095182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1209,7 +1158,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3218404661553395533, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3218404661553395533, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2102,7 +2051,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1975186209
 GameObject:
@@ -2211,7 +2160,7 @@ Transform:
   - {fileID: 824171400}
   - {fileID: 3002803213964089760}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2058775208
 GameObject:
@@ -2494,6 +2443,7 @@ GameObject:
   - component: {fileID: 7717087867956357708}
   - component: {fileID: 48936449911959390}
   - component: {fileID: 7717087867956357709}
+  - component: {fileID: 7717087867956357710}
   m_Layer: 5
   m_Name: GameManager
   m_TagString: Player
@@ -2518,8 +2468,8 @@ MonoBehaviour:
   afkCoinGain: 0
   baseCoinGainDelay: 5
   afkCoinGainDelay: 5
-  coinTxt: {fileID: 2127668527}
-  mutationText: {fileID: 0}
+  coinTxt: {fileID: 467400536}
+  mutationText: {fileID: 1849319076}
 --- !u!1001 &1860314474867421647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2529,7 +2479,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2807,7 +2757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 100
-  buttonIndex: 2
+  buttonIndex: 0
 --- !u!224 &3002803213875869338
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3329,7 +3279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 10
-  buttonIndex: 1
+  buttonIndex: 0
 --- !u!224 &3002803214425444652
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3602,7 +3552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
-  buttonIndex: 4
+  buttonIndex: 0
 --- !u!224 &3002803214891353787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3875,7 +3825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
-  buttonIndex: 3
+  buttonIndex: 0
 --- !u!224 &3002803215058129911
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4286,7 +4236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
-  buttonIndex: 5
+  buttonIndex: 0
 --- !u!224 &3002803215562594595
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4477,7 +4427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5641022036841252639, guid: e449be043a84933479451e2d3609c7fc, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5641022036841252639, guid: e449be043a84933479451e2d3609c7fc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4534,7 +4484,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7717087867956357709
 MonoBehaviour:
@@ -4550,6 +4500,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPoints: []
   plants: []
+--- !u!114 &7717087867956357710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48936449911959388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53b309081bb4ec4388af68af9e3efad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinProductionMultiplier: 1
+  coinProductionSpeedDecrease: 0
 --- !u!1001 &8656066660830036475
 PrefabInstance:
   m_ObjectHideFlags: 0
