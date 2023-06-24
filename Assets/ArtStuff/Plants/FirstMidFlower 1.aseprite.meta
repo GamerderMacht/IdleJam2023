@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cf6619f0faab8a04c8f3b12c46d1d7f0
+guid: c952af10e80672d4d810073fb7904fe2
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Background
+  - name: FirstMidFlower 1
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.48387095, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 320
-      height: 180
-    spriteID: f4510ca36c7001b49854de86fa342a9f
+      width: 31
+      height: 39
+    spriteID: fb64af157e2c4674c89d73b627517bfa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +142,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1021688250
-    name: Background
+    guid: 1002922702
+    name: FirstMidFlower 1
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Background
+    - name: FirstMidFlower 1
       frameIndex: 0
       cellRect:
-        x: 0
+        x: 17
         y: 0
-        width: 320
-        height: 180
-      spriteId: f4510ca36c7001b49854de86fa342a9f
+        width: 31
+        height: 39
+      spriteId: fb64af157e2c4674c89d73b627517bfa
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 320, y: 180}
+  canvasSize: {x: 64, y: 64}

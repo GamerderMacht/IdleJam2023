@@ -118,9 +118,46 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  animatedSpriteImportData: []
+  animatedSpriteImportData:
+  - name: Mouse
+    originalName: 
+    pivot: {x: 1, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 32
+      height: 16
+    spriteID: 8ffb7c3d00dc75845b172a414347e2ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
   spriteSheetImportData: []
-  asepriteLayers: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1487469423
+    name: Mouse
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Mouse
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 48
+        width: 32
+        height: 16
+      spriteId: 8ffb7c3d00dc75845b172a414347e2ea
+    linkedCells: []
+    parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 

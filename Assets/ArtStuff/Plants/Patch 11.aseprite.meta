@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cf6619f0faab8a04c8f3b12c46d1d7f0
+guid: 346a5ed0a4d8f1047ad662200da8ae24
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Background
+  - name: Patch 11
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.47368422, y: -1.4444444}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 320
-      height: 180
-    spriteID: f4510ca36c7001b49854de86fa342a9f
+      width: 19
+      height: 9
+    spriteID: 826b75b3d9493ed4fa9206c8eb894fdf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +142,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1021688250
-    name: Background
+    guid: 1220611918
+    name: Patch 11
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Background
+    - name: Patch 11
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 320
-        height: 180
-      spriteId: f4510ca36c7001b49854de86fa342a9f
+        x: 7
+        y: 13
+        width: 19
+        height: 9
+      spriteId: 826b75b3d9493ed4fa9206c8eb894fdf
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 320, y: 180}
+  canvasSize: {x: 32, y: 32}
