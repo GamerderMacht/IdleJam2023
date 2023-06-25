@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class ShopItemButton : MonoBehaviour
 {
     public int cost;
-    private Button button;
-    public int buttonIndex;
+    [SerializeField] private Button button;
+    
+    int buttonIndex;
     GameObject player;
     CoinManager playerCoins;
 
@@ -16,12 +17,9 @@ public class ShopItemButton : MonoBehaviour
     [SerializeField] List<int> availableSpawnList = new List<int>();
 
     private void Start()
-    {
-        button = GetComponent<Button>();
-        button.onClick.AddListener(BuyItem);
-
-        player = GameObject.FindGameObjectWithTag("Player");
-        playerCoins = player.GetComponent<CoinManager>();
+    {       
+        playerCoins = GameObject.Find("GameManager").GetComponent<CoinManager>();
+        button = this.GetComponent<Button>();
 
 
         //Creates our List length based amount of plants
@@ -33,14 +31,20 @@ public class ShopItemButton : MonoBehaviour
     }
 
     private void Update() {
-        if(playerCoins.coins >= cost)
+
+        if(this.gameObject.tag != "Player")
         {
-            button.interactable = true;
-        }
-        else
-        {
-            button.interactable = false;
-        }
+            if(playerCoins.coins >= cost)
+            {
+
+                button.interactable = true;
+            }
+            else
+            {
+                button.interactable = false;
+            }
+        }   
+        
 
     }
 
@@ -95,10 +99,18 @@ public class ShopItemButton : MonoBehaviour
 
     int CreateSpawnNumber()
     {
-        int spawnPointIndex = Random.Range(0, availableSpawnList.Count);
+        int spawnPointCreated = Random.Range(0, plants.Length);
+        int output = availableSpawnList[spawnPointCreated];
+        availableSpawnList.RemoveAt(output);
+
+
+        /*int spawnPointIndex = Random.Range(0, availableSpawnList.Count);
+        Debug.Log("spawnlistcount "+ plants.Length);
         int spawnPoint = availableSpawnList[spawnPointIndex];
-        availableSpawnList.Remove(spawnPointIndex);
-        return spawnPoint;
+        Debug.Log("spawnlistindex "+ spawnPointIndex);
+        Debug.Log("spawnpoint "+ spawnPoint);
+        availableSpawnList.RemoveAt(spawnPointIndex);
+        */return output;
     }
 
     int NewPrice(int currentCost)

@@ -363,67 +363,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215066053}
   m_CullTransparentMesh: 1
---- !u!1001 &292207698
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -2253911629886400664, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_Name
-      value: FirstMidFlower
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.3326414
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.53938466
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: -8435245712485981826, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
 --- !u!1 &373661392
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +670,7 @@ Transform:
   - {fileID: 745964516}
   - {fileID: 87607737}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &680785793
 GameObject:
@@ -1222,7 +1161,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3218404661553395533, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3218404661553395533, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2118,7 +2057,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1975186209
 GameObject:
@@ -2227,7 +2166,7 @@ Transform:
   - {fileID: 824171400}
   - {fileID: 3002803213964089760}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2058775208
 GameObject:
@@ -2511,6 +2450,7 @@ GameObject:
   - component: {fileID: 48936449911959390}
   - component: {fileID: 7717087867956357709}
   - component: {fileID: 7717087867956357710}
+  - component: {fileID: 7717087867956357711}
   m_Layer: 5
   m_Name: GameManager
   m_TagString: Player
@@ -2535,8 +2475,8 @@ MonoBehaviour:
   afkCoinGain: 0
   baseCoinGainDelay: 5
   afkCoinGainDelay: 5
-  coinNumber: {fileID: 2127668527}
-  mutationNumber: {fileID: 932859584}
+  coinTxt: {fileID: 2127668527}
+  mutationText: {fileID: 932859584}
 --- !u!1001 &1860314474867421647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2547,7 +2487,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2818,21 +2758,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3002803213875869335}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &3002803213875869337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3002803213875869339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cost: 100
-  buttonIndex: 2
+      m_Calls:
+      - m_Target: {fileID: 7717087867956357711}
+        m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
+        m_MethodName: BuyPlant
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &3002803213875869338
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2867,7 +2805,7 @@ GameObject:
   - component: {fileID: 3002803213875869334}
   - component: {fileID: 3002803213875869335}
   - component: {fileID: 3002803213875869336}
-  - component: {fileID: 3002803213875869337}
+  - component: {fileID: 3002803213875869340}
   m_Layer: 5
   m_Name: Plant Two
   m_TagString: Untagged
@@ -2875,6 +2813,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3002803213875869340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002803213875869339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 19
+  button: {fileID: 0}
+  plants:
+  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
+  - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
+  - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
+  - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
+  - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
+  - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
+  spawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
+  availableSpawnList: 
 --- !u!224 &3002803213964089760
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3342,21 +3309,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3002803214425444649}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &3002803214425444651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3002803214425444653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cost: 10
-  buttonIndex: 1
+      m_Calls:
+      - m_Target: {fileID: 7717087867956357711}
+        m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
+        m_MethodName: BuyPlant
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &3002803214425444652
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3391,7 +3356,7 @@ GameObject:
   - component: {fileID: 3002803214425444648}
   - component: {fileID: 3002803214425444649}
   - component: {fileID: 3002803214425444650}
-  - component: {fileID: 3002803214425444651}
+  - component: {fileID: 3002803214425444654}
   m_Layer: 5
   m_Name: Plant One
   m_TagString: Untagged
@@ -3399,6 +3364,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3002803214425444654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002803214425444653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 10
+  button: {fileID: 0}
+  plants:
+  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
+  - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
+  - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
+  - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
+  - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
+  - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
+  spawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
+  availableSpawnList: 
 --- !u!222 &3002803214704249589
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3615,21 +3609,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3002803214891353784}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &3002803214891353786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3002803214891353788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cost: 1500
-  buttonIndex: 4
+      m_Calls:
+      - m_Target: {fileID: 7717087867956357711}
+        m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
+        m_MethodName: BuyPlant
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &3002803214891353787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3664,7 +3656,7 @@ GameObject:
   - component: {fileID: 3002803214891353783}
   - component: {fileID: 3002803214891353784}
   - component: {fileID: 3002803214891353785}
-  - component: {fileID: 3002803214891353786}
+  - component: {fileID: 3002803214891353789}
   m_Layer: 5
   m_Name: Plant Four
   m_TagString: Untagged
@@ -3672,6 +3664,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3002803214891353789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002803214891353788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 10
+  button: {fileID: 0}
+  plants:
+  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
+  - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
+  - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
+  - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
+  - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
+  - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
+  spawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
+  availableSpawnList: 
 --- !u!222 &3002803214900084756
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3888,21 +3909,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3002803215058129908}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &3002803215058129910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3002803215058129912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cost: 500
-  buttonIndex: 3
+      m_Calls:
+      - m_Target: {fileID: 7717087867956357711}
+        m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
+        m_MethodName: BuyPlant
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &3002803215058129911
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3937,7 +3956,7 @@ GameObject:
   - component: {fileID: 3002803215058129907}
   - component: {fileID: 3002803215058129908}
   - component: {fileID: 3002803215058129909}
-  - component: {fileID: 3002803215058129910}
+  - component: {fileID: 3002803215058129913}
   m_Layer: 5
   m_Name: Plant Three
   m_TagString: Untagged
@@ -3945,6 +3964,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3002803215058129913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002803215058129912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 10
+  button: {fileID: 0}
+  plants:
+  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
+  - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
+  - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
+  - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
+  - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
+  - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
+  spawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
+  availableSpawnList: 
 --- !u!222 &3002803215130903348
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4080,20 +4128,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3002803215159962496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3002803215159962498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cost: 10000
-  buttonIndex: 6
 --- !u!224 &3002803215159962497
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4128,7 +4162,7 @@ GameObject:
   - component: {fileID: 3002803215159962557}
   - component: {fileID: 3002803215159962558}
   - component: {fileID: 3002803215159962559}
-  - component: {fileID: 3002803215159962496}
+  - component: {fileID: 3002803215159962560}
   m_Layer: 5
   m_Name: Mutation
   m_TagString: Untagged
@@ -4217,7 +4251,48 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3002803215159962558}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7717087867956357711}
+        m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
+        m_MethodName: BuyPlant
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3002803215159962560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002803215159962498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 10
+  button: {fileID: 0}
+  plants:
+  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
+  - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
+  - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
+  - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
+  - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
+  - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
+  spawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
+  availableSpawnList: 
 --- !u!222 &3002803215562594527
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4299,21 +4374,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3002803215562594592}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &3002803215562594594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3002803215562594596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cost: 5000
-  buttonIndex: 5
+      m_Calls:
+      - m_Target: {fileID: 7717087867956357711}
+        m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
+        m_MethodName: BuyPlant
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &3002803215562594595
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4348,7 +4421,7 @@ GameObject:
   - component: {fileID: 3002803215562594527}
   - component: {fileID: 3002803215562594592}
   - component: {fileID: 3002803215562594593}
-  - component: {fileID: 3002803215562594594}
+  - component: {fileID: 3002803215562594597}
   m_Layer: 5
   m_Name: Plant Five
   m_TagString: Untagged
@@ -4356,6 +4429,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3002803215562594597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002803215562594596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 10
+  button: {fileID: 0}
+  plants:
+  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
+  - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
+  - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
+  - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
+  - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
+  - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
+  spawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
+  availableSpawnList: 
 --- !u!1 &3002803215629733760
 GameObject:
   m_ObjectHideFlags: 0
@@ -4505,7 +4607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5641022036841252639, guid: e449be043a84933479451e2d3609c7fc, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5641022036841252639, guid: e449be043a84933479451e2d3609c7fc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4565,7 +4667,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7717087867956357709
 MonoBehaviour:
@@ -4607,6 +4709,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinProductionMultiplier: 1
   coinProductionSpeedDecrease: 0
+--- !u!114 &7717087867956357711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48936449911959388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 10
+  button: {fileID: 0}
+  plants:
+  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
+  - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
+  - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
+  - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
+  - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
+  - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
+  spawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
+  availableSpawnList: 
 --- !u!1001 &8656066660830036475
 PrefabInstance:
   m_ObjectHideFlags: 0
