@@ -104,7 +104,7 @@ NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 2
+    serializedVersion: 3
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -117,7 +117,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 0
+    buildHeightMesh: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.9
+  m_fontSize: 25.95
   m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -363,6 +363,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215066053}
   m_CullTransparentMesh: 1
+--- !u!1001 &292207698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2253911629886400664, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_Name
+      value: FirstMidFlower
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.3326414
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.53938466
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -8435245712485981826, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
 --- !u!1 &373661392
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,7 +509,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.9
+  m_fontSize: 25.95
   m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -645,7 +706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 566765038}
   m_Layer: 0
-  m_Name: SpawnPlace
+  m_Name: SpawnPlaces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -670,7 +731,7 @@ Transform:
   - {fileID: 745964516}
   - {fileID: 87607737}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &680785793
 GameObject:
@@ -877,7 +938,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
@@ -1124,7 +1187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.4}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.011764706}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1154,11 +1217,12 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3218404661553395533, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218404661553395533, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1205,6 +1269,9 @@ PrefabInstance:
       value: TestAnimal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
 --- !u!1 &1099023230
 GameObject:
@@ -1291,7 +1358,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.9
+  m_fontSize: 25.95
   m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1533,7 +1600,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.9
+  m_fontSize: 25.95
   m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1594,7 +1661,7 @@ GameObject:
   - component: {fileID: 1179559612}
   - component: {fileID: 1179559613}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1800,7 +1867,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.9
+  m_fontSize: 25.95
   m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2051,7 +2118,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1975186209
 GameObject:
@@ -2160,7 +2227,7 @@ Transform:
   - {fileID: 824171400}
   - {fileID: 3002803213964089760}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2058775208
 GameObject:
@@ -2247,7 +2314,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.9
+  m_fontSize: 25.95
   m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2468,18 +2535,19 @@ MonoBehaviour:
   afkCoinGain: 0
   baseCoinGainDelay: 5
   afkCoinGainDelay: 5
-  coinTxt: {fileID: 467400536}
-  mutationText: {fileID: 1849319076}
+  coinNumber: {fileID: 2127668527}
+  mutationNumber: {fileID: 932859584}
 --- !u!1001 &1860314474867421647
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2521,11 +2589,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1860314474973844936, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
+      propertyPath: m_Color.a
+      value: 0.019607844
+      objectReference: {fileID: 0}
     - target: {fileID: 1860314474973844938, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
       propertyPath: m_Name
       value: TestPlant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
 --- !u!222 &3002803213793725966
 CanvasRenderer:
@@ -2757,7 +2832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 100
-  buttonIndex: 0
+  buttonIndex: 2
 --- !u!224 &3002803213875869338
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2838,7 +2913,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -3279,7 +3356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 10
-  buttonIndex: 0
+  buttonIndex: 1
 --- !u!224 &3002803214425444652
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3551,8 +3628,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 0
-  buttonIndex: 0
+  cost: 1500
+  buttonIndex: 4
 --- !u!224 &3002803214891353787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3824,8 +3901,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 0
-  buttonIndex: 0
+  cost: 500
+  buttonIndex: 3
 --- !u!224 &3002803215058129911
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3923,15 +4000,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3959,7 +4036,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -6, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4015,8 +4092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 0
-  buttonIndex: 0
+  cost: 10000
+  buttonIndex: 6
 --- !u!224 &3002803215159962497
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4235,8 +4312,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e45e861d04694489f0a18afbb94447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 0
-  buttonIndex: 0
+  cost: 5000
+  buttonIndex: 5
 --- !u!224 &3002803215562594595
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4419,6 +4496,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5641022036841252637, guid: e449be043a84933479451e2d3609c7fc, type: 3}
@@ -4427,7 +4505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5641022036841252639, guid: e449be043a84933479451e2d3609c7fc, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5641022036841252639, guid: e449be043a84933479451e2d3609c7fc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4470,6 +4548,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e449be043a84933479451e2d3609c7fc, type: 3}
 --- !u!4 &7717087867956357708
 Transform:
@@ -4484,7 +4565,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7717087867956357709
 MonoBehaviour:
@@ -4498,8 +4579,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8977c1309d8c5d74cbe9c4650d2f5448, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints: []
-  plants: []
+  spawnPoints:
+  - {fileID: 1500521021}
+  - {fileID: 1099024501}
+  - {fileID: 45589650}
+  - {fileID: 1655702116}
+  - {fileID: 745964515}
+  - {fileID: 87607736}
+  plants:
+  - {fileID: -2253911629886400664, guid: 9c44f6d6048c02247b814eef5c6411ca, type: 3}
+  - {fileID: -2253911629886400664, guid: c952af10e80672d4d810073fb7904fe2, type: 3}
+  - {fileID: -2253911629886400664, guid: 5f3bb23593e63274fb512928bc7d2ed5, type: 3}
+  - {fileID: -2253911629886400664, guid: a4c0a605e8dd7ca4da4679c5b8f6b75d, type: 3}
+  - {fileID: -2253911629886400664, guid: 45e40d88430b0ef46b2a403b6c024854, type: 3}
+  - {fileID: -2253911629886400664, guid: 226b725011ba9384a8b75234bc1548ff, type: 3}
 --- !u!114 &7717087867956357710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4519,6 +4612,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8656066660812568176, guid: 5013d95580643884e9199e14be1877c8, type: 3}
@@ -4590,6 +4684,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5013d95580643884e9199e14be1877c8, type: 3}
 --- !u!20 &8656066660830036476 stripped
 Camera:
