@@ -11,6 +11,11 @@ public class ShopItemButton : MonoBehaviour
     GameObject player;
     CoinManager playerCoins;
 
+    [SerializeField] GameObject[] plants;
+    [SerializeField] Transform[] spawnPoints;
+
+    [SerializeField] List<int> listNumber = new List<int>();
+
     private void Start()
     {
         button = GetComponent<Button>();
@@ -18,6 +23,14 @@ public class ShopItemButton : MonoBehaviour
 
         player = GameObject.FindGameObjectWithTag("Player");
         playerCoins = player.GetComponent<CoinManager>();
+
+
+        //Creates our List length based amount of plants
+        for(int i = 0; i < plants.Length; i++)
+        {
+            listNumber.Add(i);
+        }
+        
     }
 
     private void Update() {
@@ -38,7 +51,7 @@ public class ShopItemButton : MonoBehaviour
         if (playerCoins.coins >= cost)
         {
             playerCoins.coins -= cost;
-            BuyPlant();
+            BuyPlant(buttonIndex);
             playerCoins.UpdateCanvas();
 
             Debug.Log("Item bought!");
@@ -49,8 +62,32 @@ public class ShopItemButton : MonoBehaviour
         }
     }
 
-    void BuyPlant()
+    
+
+    public void BuyPlant(int buttonIndex)
     {
+        
+        //generate a random spawnplace
+        int spawnPoint = CreateSpawnNumber();
+        //TO-DO: check if spawnpoint is available
+        
+
+
+        if(listNumber.Contains(spawnPoint))
+        {
+            
+            listNumber.Remove(spawnPoint);
+            Instantiate(plants[buttonIndex], spawnPoints[spawnPoint]);
+
+            return;
+        }
+        
+            
+        
+            
+        //place the plant on a random place
+        
+
         switch (buttonIndex)
         {
             case 1:
@@ -73,6 +110,13 @@ public class ShopItemButton : MonoBehaviour
 
             
         }
+    }
+
+    int CreateSpawnNumber()
+    {
+        
+        int spawnPointIndex = Random.Range(0, listNumber.Count);
+        return spawnPointIndex;
     }
 
     int NewPrice(int currentCost)
