@@ -10,9 +10,10 @@ public class CoinManager : MonoBehaviour
     public static CoinManager instance = null;
     public float coins;
     public float baseCoinGain = 1;
-    public float afkCoinGain = 0;
+    float afkCoinGain = 0;
     public float baseCoinGainDelay = 5;
-    public float afkCoinGainDelay = 5;
+    float afkCoinGainDelay = 5;
+    public float bonusCoinsMultiplier = 1;
     public TextMeshProUGUI coinTxt;
     [SerializeField] TextMeshProUGUI mutationText;
 
@@ -51,10 +52,11 @@ public class CoinManager : MonoBehaviour
     {
         while (true)
         {
-            afkCoinGain = (baseCoinGain * animalStatBonus.coinProductionMultiplier);
+            afkCoinGain = (baseCoinGain * animalStatBonus.coinProductionMultiplier * bonusCoinsMultiplier);
             afkCoinGainDelay = (baseCoinGainDelay - animalStatBonus.coinProductionSpeedDecrease);
             coins += afkCoinGain;
             UpdateCanvas();
+            ResetBonusCoins();
             Debug.Log(coins);
 
             yield return new WaitForSeconds (afkCoinGainDelay);
@@ -65,5 +67,9 @@ public class CoinManager : MonoBehaviour
     {
         coinTxt.text = coins.ToString();
        //mutationText.text = mutationPoints.ToString();
+    }
+    public void ResetBonusCoins()
+    {
+        bonusCoinsMultiplier = 1;
     }
 }

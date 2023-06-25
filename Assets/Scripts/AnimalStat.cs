@@ -6,10 +6,12 @@ public class AnimalStat : MonoBehaviour
 {
     AnimalStatBonus animalStatBonus;
     bool mutation;
-    public float multiplierBonus;
-    public float afkTimerBonus;
-    public float mutationMultiplierBonus;
-    public float mutationAfkTimerBonus;
+    public float addToMultiplierBonus;
+    public float addToAfkTimerBonus;
+    public float addToBonus;
+    public float mutationAddToMultiplierBonus;
+    public float mutationAddToAfkTimerBonus;
+    public float mutationAddToBonus;
     void Start()
     {
         animalStatBonus = FindObjectOfType<AnimalStatBonus>();
@@ -18,16 +20,18 @@ public class AnimalStat : MonoBehaviour
 
     void ApplyAnimalBonus()
     {
-        animalStatBonus.coinProductionMultiplier += multiplierBonus;
-        animalStatBonus.coinProductionSpeedDecrease += afkTimerBonus;
+        animalStatBonus.coinProductionMultiplier += addToMultiplierBonus;
+        animalStatBonus.coinProductionSpeedDecrease += addToAfkTimerBonus;
+        animalStatBonus.coinBonusMultiplier += addToBonus;
     }
 
     void ApplyAnimalMutationBonus()
     {
         if (mutation)
         {
-            animalStatBonus.coinProductionMultiplier += mutationMultiplierBonus;
-            animalStatBonus.coinProductionSpeedDecrease += mutationAfkTimerBonus;
+            animalStatBonus.coinProductionMultiplier += mutationAddToMultiplierBonus;
+            animalStatBonus.coinProductionSpeedDecrease += mutationAddToAfkTimerBonus;
+            animalStatBonus.coinBonusMultiplier += mutationAddToBonus;
         }
     }
 
