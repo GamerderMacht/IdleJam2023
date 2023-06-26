@@ -60,7 +60,7 @@ public class ShopItemButton : MonoBehaviour
         Debug.Log("buttonindex clicked with is" + buttonIndex);
         if (playerCoins.coins >= cost)
         {
-            playerCoins.coins -= cost;
+            playerCoins.coins = Mathf.RoundToInt(playerCoins.coins - cost);
             playerCoins.UpdateCanvas();
 
             switch (buttonIndex)
@@ -134,7 +134,7 @@ public class ShopItemButton : MonoBehaviour
            
             Instantiate(plants[buttonIndex], plantSpawnPoints[spawnPoint].transform.position, Quaternion.identity);
 
-            // SpawnAnimal();
+            SpawnAnimal();
         }
         else
         {
@@ -175,12 +175,12 @@ public class ShopItemButton : MonoBehaviour
     {
         if (plantsBought == 3)
         {
-            Instantiate(animals[0], animalSpawnPoints[0]);
+            Instantiate(animals[0], animalSpawnPoints[0].transform.position, Quaternion.identity);
         }
 
         if (plantsBought == 6)
         {
-            Instantiate(animals[1], animalSpawnPoints[1]);
+            Instantiate(animals[1], animalSpawnPoints[1].transform.position, Quaternion.identity);
         }
     }
     
