@@ -861,6 +861,7 @@ Transform:
   - {fileID: 87607737}
   - {fileID: 211387081}
   - {fileID: 426525383}
+  - {fileID: 750996770}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1329,6 +1330,37 @@ Transform:
   - {fileID: 307953583}
   m_Father: {fileID: 0}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &750996769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 750996770}
+  m_Layer: 0
+  m_Name: Animal SpawnPoint 3
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &750996770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750996769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 566765038}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &824171399
 GameObject:
@@ -4458,19 +4490,9 @@ MonoBehaviour:
   plantsBought: 0
   allPlantsBought: 0
   plants:
-  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
-  - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
-  - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
-  - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
-  - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
-  - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
+  - {fileID: 582885202177385187, guid: 1624d7d0983a480468f6172204d9a4bd, type: 3}
   plantSpawnPoints:
-  - {fileID: 1500521022}
-  - {fileID: 1099024502}
-  - {fileID: 45589651}
-  - {fileID: 1655702117}
   - {fileID: 745964516}
-  - {fileID: 87607737}
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -4808,7 +4830,7 @@ MonoBehaviour:
   plantsBought: 0
   allPlantsBought: 0
   plants:
-  - {fileID: -2253911629886400664, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
+  - {fileID: 3866433615349140728, guid: 4fc62c43730630e449109c189959f447, type: 3}
   plantSpawnPoints:
   - {fileID: 1099024502}
   availablePlantSpawnList: 
@@ -5357,19 +5379,9 @@ MonoBehaviour:
   plantsBought: 0
   allPlantsBought: 0
   plants:
-  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
-  - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
-  - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
-  - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
-  - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
-  - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
+  - {fileID: 1348538712007820698, guid: b74b9eb422a88684f918da4c63950b52, type: 3}
   plantSpawnPoints:
-  - {fileID: 1500521022}
-  - {fileID: 1099024502}
   - {fileID: 45589651}
-  - {fileID: 1655702117}
-  - {fileID: 745964516}
-  - {fileID: 87607737}
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
