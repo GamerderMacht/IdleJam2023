@@ -55,7 +55,7 @@ public class ShopItemButton : MonoBehaviour
 
     }
 
-    public void BuyItem()
+    public void BuyItem(int buttonIndex)
     {
 
         if (playerCoins.coins >= cost)
