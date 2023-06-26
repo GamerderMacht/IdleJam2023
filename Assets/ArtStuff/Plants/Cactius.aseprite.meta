@@ -119,18 +119,338 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Cactius
+  - name: Cactius_Frame_0
     originalName: 
     pivot: {x: 0.46875, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 88
+      y: 196
+      width: 32
+      height: 41
+    spriteID: b336e82410d81aa47a527ccf6ec93ed3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 196}
+  - name: Cactius_Frame_1
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
       y: 4
       width: 32
       height: 41
-    spriteID: 90757d8fe1b37b141928d90843162a44
+    spriteID: 01ef9a9315478874f96dd56525049805
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 4}
+  - name: Cactius_Frame_2
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 53
+      width: 32
+      height: 41
+    spriteID: cb458d5a9377ae04193c3c7cc81f0c37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 53}
+  - name: Cactius_Frame_3
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 102
+      width: 32
+      height: 41
+    spriteID: fedb27308a7915a469ca8984f7054d92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 102}
+  - name: Cactius_Frame_4
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 151
+      width: 32
+      height: 41
+    spriteID: bdb3c702e8fb05f43b41b83c659ac979
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 151}
+  - name: Cactius_Frame_5
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 200
+      width: 32
+      height: 41
+    spriteID: 7d561055be21ef44e854e725deb788b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 200}
+  - name: Cactius_Frame_6
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 4
+      width: 32
+      height: 41
+    spriteID: cdaadc77efabd7443ba30c53b0806fec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 4}
+  - name: Cactius_Frame_7
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 53
+      width: 32
+      height: 41
+    spriteID: a1e47cf70972269468fc9898cff0ae73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 53}
+  - name: Cactius_Frame_8
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 102
+      width: 32
+      height: 41
+    spriteID: b6153270d7de2fb4da5cbe8dcf5ec93e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 102}
+  - name: Cactius_Frame_9
+    originalName: 
+    pivot: {x: 0.45454547, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 100
+      width: 33
+      height: 40
+    spriteID: 1502ea051456ce44492902a358baf79a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 100}
+  - name: Cactius_Frame_10
+    originalName: 
+    pivot: {x: 0.45454547, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 148
+      width: 33
+      height: 40
+    spriteID: 0147c6f18701cbf4b9ab67ed10731dad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 148}
+  - name: Cactius_Frame_11
+    originalName: 
+    pivot: {x: 0.45454547, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 196
+      width: 33
+      height: 40
+    spriteID: b3064fd3d95ba0a4cab382138d9d71dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 196}
+  - name: Cactius_Frame_12
+    originalName: 
+    pivot: {x: 0.45454547, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 4
+      width: 33
+      height: 40
+    spriteID: 84646a87418b90941bbd821c52002435
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 4}
+  - name: Cactius_Frame_13
+    originalName: 
+    pivot: {x: 0.45454547, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 52
+      width: 33
+      height: 40
+    spriteID: a535db87a674e2f42832bf17ac29b5aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 52}
+  - name: Cactius_Frame_14
+    originalName: 
+    pivot: {x: 0.45454547, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 100
+      width: 33
+      height: 40
+    spriteID: 08cd3ca75c84aa643bc2f99e1aba12b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 100}
+  - name: Cactius_Frame_15
+    originalName: 
+    pivot: {x: 0.45454547, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 148
+      width: 33
+      height: 40
+    spriteID: b66905e7260c3c4429f35a477a9fef5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 148}
+  - name: Cactius_Frame_16
+    originalName: 
+    pivot: {x: 0.44117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 34
+      height: 40
+    spriteID: b413d59806c1e5644bc0dd53b06094fc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,6 +459,266 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Cactius_Frame_17
+    originalName: 
+    pivot: {x: 0.44117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 52
+      width: 34
+      height: 40
+    spriteID: 720213c61f21cf641bc9539ec5d6268d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 52}
+  - name: Cactius_Frame_18
+    originalName: 
+    pivot: {x: 0.44117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 100
+      width: 34
+      height: 40
+    spriteID: f7ba62d8f8d0f234e84fbbea875f4228
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 100}
+  - name: Cactius_Frame_19
+    originalName: 
+    pivot: {x: 0.44117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 148
+      width: 34
+      height: 40
+    spriteID: 0ae90a0941a7a484081964b8b88efd10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 148}
+  - name: Cactius_Frame_20
+    originalName: 
+    pivot: {x: 0.44117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 196
+      width: 34
+      height: 40
+    spriteID: 534df596e83322249a151748e87cd820
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 196}
+  - name: Cactius_Frame_21
+    originalName: 
+    pivot: {x: 0.44117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 4
+      width: 34
+      height: 40
+    spriteID: 36c554e74f0bfa54db3602fef8af5da2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 4}
+  - name: Cactius_Frame_22
+    originalName: 
+    pivot: {x: 0.44117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 52
+      width: 34
+      height: 40
+    spriteID: 59fdc4d07e2518043878243033e5ff81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 52}
+  - name: Cactius_Frame_23
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 151
+      width: 32
+      height: 41
+    spriteID: b669c2cf5907f5844abe49d37856a2d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 151}
+  - name: Cactius_Frame_24
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 200
+      width: 32
+      height: 41
+    spriteID: dbffb90d343857041b4438fbd493fc56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 200}
+  - name: Cactius_Frame_25
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 4
+      width: 32
+      height: 41
+    spriteID: 7fdb3d4afda3c3846befa67a416b6c99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 4}
+  - name: Cactius_Frame_26
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 53
+      width: 32
+      height: 41
+    spriteID: 27fe5263cc20d0749976ddd218ba3386
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 53}
+  - name: Cactius_Frame_27
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 102
+      width: 32
+      height: 41
+    spriteID: 1f83336da5abc0a4b915ceeebdea197d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 102}
+  - name: Cactius_Frame_28
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 151
+      width: 32
+      height: 41
+    spriteID: 64d52f4dde56bc54b961295f05801302
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 151}
+  - name: Cactius_Frame_29
+    originalName: 
+    pivot: {x: 0.46875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 200
+      width: 32
+      height: 41
+    spriteID: 151156ebe48ba3944b3553ed3fef99b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 200}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -148,14 +728,246 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Cactius
+    - name: Cactius_Frame_0
       frameIndex: 0
       cellRect:
         x: 17
         y: 0
         width: 32
         height: 41
-      spriteId: 90757d8fe1b37b141928d90843162a44
+      spriteId: b336e82410d81aa47a527ccf6ec93ed3
+    - name: Cactius_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: 01ef9a9315478874f96dd56525049805
+    - name: Cactius_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: cb458d5a9377ae04193c3c7cc81f0c37
+    - name: Cactius_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: fedb27308a7915a469ca8984f7054d92
+    - name: Cactius_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: bdb3c702e8fb05f43b41b83c659ac979
+    - name: Cactius_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: 7d561055be21ef44e854e725deb788b9
+    - name: Cactius_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: cdaadc77efabd7443ba30c53b0806fec
+    - name: Cactius_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: a1e47cf70972269468fc9898cff0ae73
+    - name: Cactius_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: b6153270d7de2fb4da5cbe8dcf5ec93e
+    - name: Cactius_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 17
+        y: 0
+        width: 33
+        height: 40
+      spriteId: 1502ea051456ce44492902a358baf79a
+    - name: Cactius_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 17
+        y: 0
+        width: 33
+        height: 40
+      spriteId: 0147c6f18701cbf4b9ab67ed10731dad
+    - name: Cactius_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 17
+        y: 0
+        width: 33
+        height: 40
+      spriteId: b3064fd3d95ba0a4cab382138d9d71dc
+    - name: Cactius_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 17
+        y: 0
+        width: 33
+        height: 40
+      spriteId: 84646a87418b90941bbd821c52002435
+    - name: Cactius_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 17
+        y: 0
+        width: 33
+        height: 40
+      spriteId: a535db87a674e2f42832bf17ac29b5aa
+    - name: Cactius_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 17
+        y: 0
+        width: 33
+        height: 40
+      spriteId: 08cd3ca75c84aa643bc2f99e1aba12b4
+    - name: Cactius_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 17
+        y: 0
+        width: 33
+        height: 40
+      spriteId: b66905e7260c3c4429f35a477a9fef5e
+    - name: Cactius_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 17
+        y: 0
+        width: 34
+        height: 40
+      spriteId: b413d59806c1e5644bc0dd53b06094fc
+    - name: Cactius_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 17
+        y: 0
+        width: 34
+        height: 40
+      spriteId: 720213c61f21cf641bc9539ec5d6268d
+    - name: Cactius_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 17
+        y: 0
+        width: 34
+        height: 40
+      spriteId: f7ba62d8f8d0f234e84fbbea875f4228
+    - name: Cactius_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 17
+        y: 0
+        width: 34
+        height: 40
+      spriteId: 0ae90a0941a7a484081964b8b88efd10
+    - name: Cactius_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 17
+        y: 0
+        width: 34
+        height: 40
+      spriteId: 534df596e83322249a151748e87cd820
+    - name: Cactius_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 17
+        y: 0
+        width: 34
+        height: 40
+      spriteId: 36c554e74f0bfa54db3602fef8af5da2
+    - name: Cactius_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 17
+        y: 0
+        width: 34
+        height: 40
+      spriteId: 59fdc4d07e2518043878243033e5ff81
+    - name: Cactius_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: b669c2cf5907f5844abe49d37856a2d6
+    - name: Cactius_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: dbffb90d343857041b4438fbd493fc56
+    - name: Cactius_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: 7fdb3d4afda3c3846befa67a416b6c99
+    - name: Cactius_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: 27fe5263cc20d0749976ddd218ba3386
+    - name: Cactius_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: 1f83336da5abc0a4b915ceeebdea197d
+    - name: Cactius_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: 64d52f4dde56bc54b961295f05801302
+    - name: Cactius_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 17
+        y: 0
+        width: 32
+        height: 41
+      spriteId: 151156ebe48ba3944b3553ed3fef99b9
     linkedCells: []
     parentIndex: -1
   platformSettings: []

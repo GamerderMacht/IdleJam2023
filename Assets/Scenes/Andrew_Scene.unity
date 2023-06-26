@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45589650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3, y: -2.3, z: 0}
+  m_LocalPosition: {x: -3.3, y: -2.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -178,7 +178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87607736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2, y: -2.3, z: 0}
+  m_LocalPosition: {x: -2.2, y: -2.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -983,7 +983,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745964515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2, y: -1.5, z: 1}
+  m_LocalPosition: {x: -2.2, y: -1.35, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1810,7 +1810,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099024501}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3, y: -1.5, z: 1}
+  m_LocalPosition: {x: -3.3, y: -1.35, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2020,7 +2020,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500521021}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3, y: -0.5, z: 2}
+  m_LocalPosition: {x: -3.3, y: -0.35, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2051,7 +2051,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655702116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2, y: -0.5, z: 2}
+  m_LocalPosition: {x: -2.2, y: -0.35, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3734,7 +3734,7 @@ MonoBehaviour:
   plantsBought: 0
   allPlantsBought: 0
   plants:
-  - {fileID: 3866433615349140728, guid: 4fc62c43730630e449109c189959f447, type: 3}
+  - {fileID: 6602851169661687731, guid: 4fc62c43730630e449109c189959f447, type: 3}
   plantSpawnPoints:
   - {fileID: 1099024502}
   availablePlantSpawnList: 
@@ -4468,7 +4468,7 @@ MonoBehaviour:
   plants:
   - {fileID: 126300512548501269, guid: 4e53d882e665e724191eea0845b1915a, type: 3}
   - {fileID: 3861631443748272318, guid: e95c753149b47b645aa9398da43d3e26, type: 3}
-  - {fileID: 3866433615349140728, guid: 4fc62c43730630e449109c189959f447, type: 3}
+  - {fileID: 6602851169661687731, guid: 4fc62c43730630e449109c189959f447, type: 3}
   - {fileID: 582885202177385187, guid: 1624d7d0983a480468f6172204d9a4bd, type: 3}
   - {fileID: 1348538712007820698, guid: b74b9eb422a88684f918da4c63950b52, type: 3}
   - {fileID: 5678186711952074639, guid: b87626aab6d8f0048be1d5bd2d255ff2, type: 3}
