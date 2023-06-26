@@ -6,15 +6,22 @@ public class AnimalStat : MonoBehaviour
 {
     AnimalStatBonus animalStatBonus;
     public SpriteRenderer mutationSprite;
-    bool mutation;
+    int mutationLevel;
     public float multiplierBonus;
     public float afkTimerBonus;
     public float mutationMultiplierBonus;
     public float mutationAfkTimerBonus;
+
     void Start()
     {
         animalStatBonus = FindObjectOfType<AnimalStatBonus>();
         ApplyAnimalBonus();
+    }
+
+    // This is the method to be called on click
+    public void OnObjectClick()
+    {
+        Debug.Log("GameObject was clicked!");
     }
 
     void ApplyAnimalBonus()
@@ -25,10 +32,12 @@ public class AnimalStat : MonoBehaviour
 
     void ApplyAnimalMutationBonus()
     {
-        if (mutation)
+        if (mutationLevel < 3)
         {
             animalStatBonus.coinProductionMultiplier += mutationMultiplierBonus;
             animalStatBonus.coinProductionSpeedDecrease += mutationAfkTimerBonus;
+        } else {
+            Debug.Log("Reached maximum mutation level!");
         }
     }
 
