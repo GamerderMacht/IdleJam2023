@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7db7facd7bab06744a1d51dbac23495c
+guid: e684300f0e1e82447af3c506bef5286e
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Bird
+  - name: BirbChild
     originalName: 
-    pivot: {x: 0.5416667, y: -0.107142866}
+    pivot: {x: 0.7058824, y: -0.3181818}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 24
-      height: 28
-    spriteID: 7575711697eefa94181d634da2028a8a
+      width: 17
+      height: 22
+    spriteID: 0b21f83ab2c78df49ac60cc206860748
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,20 +142,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -719224103
-    name: Bird
+    guid: 1742748073
+    name: BirbChild
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Bird
+    - name: BirbChild
       frameIndex: 0
       cellRect:
-        x: 3
-        y: 3
-        width: 24
-        height: 28
-      spriteId: 7575711697eefa94181d634da2028a8a
+        x: 4
+        y: 7
+        width: 17
+        height: 22
+      spriteId: 0b21f83ab2c78df49ac60cc206860748
     linkedCells: []
     parentIndex: -1
   platformSettings: []
