@@ -119,18 +119,218 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Flierblu
+  - name: Flierblu_Frame_0
     originalName: 
     pivot: {x: 0.48387095, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 44
+      y: 56
+      width: 31
+      height: 44
+    spriteID: ac593ad0ce2d75d48924d37046e9a890
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 56}
+  - name: Flierblu_Frame_1
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 108
+      width: 31
+      height: 44
+    spriteID: fbc17e3b206bce14b84c329fd19d38eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 108}
+  - name: Flierblu_Frame_2
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 160
+      width: 31
+      height: 44
+    spriteID: 3fc421e18f9ed95419f9cdde6a1549bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 160}
+  - name: Flierblu_Frame_3
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 212
+      width: 31
+      height: 44
+    spriteID: d54c52ec0beb0774d9b68ad6b9b9512e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 212}
+  - name: Flierblu_Frame_4
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 264
+      width: 31
+      height: 44
+    spriteID: 7155b6ca6b39eec4c8fbf2fd2257b00a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 264}
+  - name: Flierblu_Frame_5
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 316
+      width: 31
+      height: 44
+    spriteID: 92e75332df9bdbc4bb701607f366902b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 316}
+  - name: Flierblu_Frame_6
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 368
+      width: 31
+      height: 44
+    spriteID: 6cfebc17183409944a065c317de01e92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 368}
+  - name: Flierblu_Frame_7
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 420
+      width: 31
+      height: 44
+    spriteID: cd54a1a8f6da6b34290f5267c790fe0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 420}
+  - name: Flierblu_Frame_8
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
       y: 4
       width: 31
       height: 44
-    spriteID: a832984c3a7f2674c9493b83296be46a
+    spriteID: 94f336afad29d0749a2459722bb08d46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 4}
+  - name: Flierblu_Frame_9
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 56
+      width: 31
+      height: 44
+    spriteID: 85cfaa7c57eb8d848a88a461cf3a9091
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 56}
+  - name: Flierblu_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 32
+      height: 44
+    spriteID: edaf0e9463a552d47a9729c4892ad19e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,6 +339,386 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Flierblu_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 56
+      width: 32
+      height: 44
+    spriteID: 687b0628eacc7a943ac59678dde4108c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 56}
+  - name: Flierblu_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 32
+      height: 44
+    spriteID: 1754967c5f48a4e47ba6b2db17f66b58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: Flierblu_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 160
+      width: 32
+      height: 44
+    spriteID: cf245cf8eb0ed9b4bad9fe5109e7eae1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 160}
+  - name: Flierblu_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 212
+      width: 32
+      height: 44
+    spriteID: 6fc4666f1fee4d643ab7c790e8c636d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 212}
+  - name: Flierblu_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 264
+      width: 32
+      height: 44
+    spriteID: 861122e2f4d48dc42b2f3e01d767bd76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 264}
+  - name: Flierblu_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 316
+      width: 32
+      height: 44
+    spriteID: f246932900e87a543b77b9d4b8559747
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 316}
+  - name: Flierblu_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 368
+      width: 32
+      height: 44
+    spriteID: a06229c0ee28322458b46352dd5671d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 368}
+  - name: Flierblu_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 420
+      width: 32
+      height: 44
+    spriteID: 31f122eecd40eec45bbb2951c14a0d26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 420}
+  - name: Flierblu_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 32
+      height: 44
+    spriteID: b8147d2ab17b57b4bba9f46e3dece793
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 4}
+  - name: Flierblu_Frame_20
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 108
+      width: 31
+      height: 44
+    spriteID: 07efe64d263f36e44aa1d36a1af22b9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 108}
+  - name: Flierblu_Frame_21
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 160
+      width: 31
+      height: 44
+    spriteID: 95c9cfd7b5b7f6941a9801e506d440e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 160}
+  - name: Flierblu_Frame_22
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 212
+      width: 31
+      height: 44
+    spriteID: 4ff5da38c741d5f41b00685399b27641
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 212}
+  - name: Flierblu_Frame_23
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 264
+      width: 31
+      height: 44
+    spriteID: 53d1d4a96609bde4fa32d39896d042bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 264}
+  - name: Flierblu_Frame_24
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 316
+      width: 31
+      height: 44
+    spriteID: 4a596b4f7d949b9448e2a203198067f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 316}
+  - name: Flierblu_Frame_25
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 368
+      width: 31
+      height: 44
+    spriteID: 8fbac2bcecc992c42a25b8e888db91df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 368}
+  - name: Flierblu_Frame_26
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 420
+      width: 31
+      height: 44
+    spriteID: 9de5e445aee2621498bd62a502c19b58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 420}
+  - name: Flierblu_Frame_27
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 4
+      width: 31
+      height: 44
+    spriteID: 3055fc9b4e0eeae4b9d3d9bedeb340d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 4}
+  - name: Flierblu_Frame_28
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 56
+      width: 31
+      height: 44
+    spriteID: a5bb2f24c3598aa4bb7a2d9ef46cab1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 56}
+  - name: Flierblu_Frame_29
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 108
+      width: 31
+      height: 44
+    spriteID: fc23a92305a65c84dbf5029ce7005235
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 108}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -148,14 +728,246 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Flierblu
+    - name: Flierblu_Frame_0
       frameIndex: 0
       cellRect:
         x: 17
         y: 0
         width: 31
         height: 44
-      spriteId: a832984c3a7f2674c9493b83296be46a
+      spriteId: ac593ad0ce2d75d48924d37046e9a890
+    - name: Flierblu_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: fbc17e3b206bce14b84c329fd19d38eb
+    - name: Flierblu_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 3fc421e18f9ed95419f9cdde6a1549bf
+    - name: Flierblu_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: d54c52ec0beb0774d9b68ad6b9b9512e
+    - name: Flierblu_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 7155b6ca6b39eec4c8fbf2fd2257b00a
+    - name: Flierblu_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 92e75332df9bdbc4bb701607f366902b
+    - name: Flierblu_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 6cfebc17183409944a065c317de01e92
+    - name: Flierblu_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: cd54a1a8f6da6b34290f5267c790fe0b
+    - name: Flierblu_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 94f336afad29d0749a2459722bb08d46
+    - name: Flierblu_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 85cfaa7c57eb8d848a88a461cf3a9091
+    - name: Flierblu_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 16
+        y: 0
+        width: 32
+        height: 44
+      spriteId: edaf0e9463a552d47a9729c4892ad19e
+    - name: Flierblu_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 16
+        y: 0
+        width: 32
+        height: 44
+      spriteId: 687b0628eacc7a943ac59678dde4108c
+    - name: Flierblu_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 16
+        y: 0
+        width: 32
+        height: 44
+      spriteId: 1754967c5f48a4e47ba6b2db17f66b58
+    - name: Flierblu_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 16
+        y: 0
+        width: 32
+        height: 44
+      spriteId: cf245cf8eb0ed9b4bad9fe5109e7eae1
+    - name: Flierblu_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 16
+        y: 0
+        width: 32
+        height: 44
+      spriteId: 6fc4666f1fee4d643ab7c790e8c636d6
+    - name: Flierblu_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 16
+        y: 0
+        width: 32
+        height: 44
+      spriteId: 861122e2f4d48dc42b2f3e01d767bd76
+    - name: Flierblu_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 16
+        y: 0
+        width: 32
+        height: 44
+      spriteId: f246932900e87a543b77b9d4b8559747
+    - name: Flierblu_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 16
+        y: 0
+        width: 32
+        height: 44
+      spriteId: a06229c0ee28322458b46352dd5671d2
+    - name: Flierblu_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 16
+        y: 0
+        width: 32
+        height: 44
+      spriteId: 31f122eecd40eec45bbb2951c14a0d26
+    - name: Flierblu_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 16
+        y: 0
+        width: 32
+        height: 44
+      spriteId: b8147d2ab17b57b4bba9f46e3dece793
+    - name: Flierblu_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 07efe64d263f36e44aa1d36a1af22b9e
+    - name: Flierblu_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 95c9cfd7b5b7f6941a9801e506d440e4
+    - name: Flierblu_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 4ff5da38c741d5f41b00685399b27641
+    - name: Flierblu_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 53d1d4a96609bde4fa32d39896d042bb
+    - name: Flierblu_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 4a596b4f7d949b9448e2a203198067f6
+    - name: Flierblu_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 8fbac2bcecc992c42a25b8e888db91df
+    - name: Flierblu_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 9de5e445aee2621498bd62a502c19b58
+    - name: Flierblu_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: 3055fc9b4e0eeae4b9d3d9bedeb340d8
+    - name: Flierblu_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: a5bb2f24c3598aa4bb7a2d9ef46cab1d
+    - name: Flierblu_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 44
+      spriteId: fc23a92305a65c84dbf5029ce7005235
     linkedCells: []
     parentIndex: -1
   platformSettings: []
