@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45589650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.35, y: -2.1100001, z: 0}
+  m_LocalPosition: {x: -3.3, y: -2.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -178,7 +178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87607736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.27, y: -2.1100001, z: 0}
+  m_LocalPosition: {x: -2.2, y: -2.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1179,7 +1179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745964515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2699997, y: -1.2599999, z: 1}
+  m_LocalPosition: {x: -2.2, y: -1.5, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1338,7 +1338,7 @@ Transform:
   m_Children:
   - {fileID: 307953583}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &824171399
 GameObject:
@@ -1871,7 +1871,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099024501}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.35, y: -1.2599999, z: 1}
+  m_LocalPosition: {x: -3.3, y: -1.5, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2184,7 +2184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500521021}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.35, y: -0.26, z: 2}
+  m_LocalPosition: {x: -3.3, y: -0.5, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2485,7 +2485,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655702116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.27, y: -0.26, z: 2}
+  m_LocalPosition: {x: -2.2, y: -0.5, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2881,7 +2881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3584906, g: 0.26210397, b: 0.28528455, a: 1}
+  m_Color: {r: 0.2598098, g: 0.5566038, b: 0.20216268, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3248,71 +3248,6 @@ MonoBehaviour:
   afkCoinGainDelay: 5
   coinTxt: {fileID: 2127668527}
   mutationText: {fileID: 932859584}
---- !u!1001 &1860314474867421647
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844935, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844936, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_Color.a
-      value: 0.019607844
-      objectReference: {fileID: 0}
-    - target: {fileID: 1860314474973844938, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
-      propertyPath: m_Name
-      value: TestPlant
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ff974166d70cbe44d926f346a27bb860, type: 3}
 --- !u!222 &3002803213793725966
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4203,12 +4138,12 @@ MonoBehaviour:
   plantsBought: 0
   allPlantsBought: 0
   plants:
-  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
-  - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
-  - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
-  - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
-  - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
-  - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
+  - {fileID: 7117841838459696730, guid: 4e53d882e665e724191eea0845b1915a, type: 3}
+  - {fileID: 3861631443748272318, guid: e95c753149b47b645aa9398da43d3e26, type: 3}
+  - {fileID: 3866433615349140728, guid: 4fc62c43730630e449109c189959f447, type: 3}
+  - {fileID: 1348538712007820698, guid: b74b9eb422a88684f918da4c63950b52, type: 3}
+  - {fileID: 9213345278050317090, guid: e39835648313bf543b63c76d9a96153a, type: 3}
+  - {fileID: 257875892654799282, guid: 1624d7d0983a480468f6172204d9a4bd, type: 3}
   plantSpawnPoints:
   - {fileID: 1500521022}
   - {fileID: 1099024502}
@@ -5791,7 +5726,7 @@ MonoBehaviour:
   plantsBought: 0
   allPlantsBought: 0
   plants:
-  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
+  - {fileID: 7117841838459696730, guid: 4e53d882e665e724191eea0845b1915a, type: 3}
   - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
   - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
   - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
