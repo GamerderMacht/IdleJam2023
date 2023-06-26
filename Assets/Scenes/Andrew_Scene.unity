@@ -851,7 +851,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7717087867956357711}
         m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
-        m_MethodName: BuyPlant
+        m_MethodName: BuyItem
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3198,7 +3198,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7717087867956357711}
         m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
-        m_MethodName: BuyPlant
+        m_MethodName: BuyItem
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3747,7 +3747,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7717087867956357711}
         m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
-        m_MethodName: BuyPlant
+        m_MethodName: BuyItem
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4045,7 +4045,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7717087867956357711}
         m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
-        m_MethodName: BuyPlant
+        m_MethodName: BuyItem
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4343,7 +4343,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7717087867956357711}
         m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
-        m_MethodName: BuyPlant
+        m_MethodName: BuyItem
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4683,7 +4683,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7717087867956357711}
         m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
-        m_MethodName: BuyPlant
+        m_MethodName: BuyItem
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4804,7 +4804,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7717087867956357711}
         m_TargetAssemblyTypeName: ShopItemButton, Assembly-CSharp
-        m_MethodName: BuyPlant
+        m_MethodName: BuyItem
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
