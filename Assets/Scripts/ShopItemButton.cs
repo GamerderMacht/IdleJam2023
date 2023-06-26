@@ -134,7 +134,7 @@ public class ShopItemButton : MonoBehaviour
     
             Instantiate(plants[buttonIndex], plantSpawnPoints[spawnPoint]);
 
-            SpawnAnimal();
+            // SpawnAnimal();
         }
         else
         {
@@ -146,32 +146,22 @@ public class ShopItemButton : MonoBehaviour
 
     int CreateSpawnNumber()
     {
-        /*
-        int spawnPointCreated = Random.Range(0, plants.Length);
-        int output = availablePlantSpawnList[spawnPointCreated];
-        availablePlantSpawnList.RemoveAt(output);
-        */
+        int spawnPointIndex = Random.Range(0, availablePlantSpawnList.Count);
+        int spawnPoint = availablePlantSpawnList[spawnPointIndex];
+        availablePlantSpawnList.RemoveAt(spawnPointIndex);
 
-        if (!allPlantsBought)
+        // Debug.Log($"spawnlistcount: {plants.Length}");
+        // Debug.Log($"spawnlistindex: {spawnPointIndex}");
+        // Debug.Log($"spawnpoint: {spawnPoint}");
+
+        plantsBought++;
+
+        if (plantsBought >= plants.Length)
         {
-            int spawnPointIndex = Random.Range(0, availablePlantSpawnList.Count);
-            Debug.Log($"spawnlistcount: {plants.Length}");
-            int spawnPoint = availablePlantSpawnList[spawnPointIndex];
-            Debug.Log($"spawnlistindex: {spawnPointIndex}");
-            Debug.Log($"spawnpoint: {spawnPoint}");
-            availablePlantSpawnList.RemoveAt(spawnPointIndex);
-
-            plantsBought++;
-
-            if (plantsBought >= plants.Length)
-            {
-                allPlantsBought = true;
-            }
-
-            return spawnPoint;
+            allPlantsBought = true;
         }
 
-        return 0;
+        return spawnPoint;
     }
 
     int NewPrice(int currentCost)
