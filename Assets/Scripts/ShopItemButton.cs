@@ -6,19 +6,22 @@ using UnityEngine.UI;
 public class ShopItemButton : MonoBehaviour
 {
     public int cost;
-    public int plantsBought;
-    public bool allPlantsBought;
+
     [SerializeField] private Button button;
-    bool[] hasPlantSpawned;
+    
     int buttonIndex;
     GameObject player;
     CoinManager playerCoins;
 
+    bool[] hasPlantSpawned;
+    public int plantsBought;
+    public bool allPlantsBought;
     [SerializeField] GameObject[] plants;
-    [SerializeField] Transform[] spawnPoints;
+    [SerializeField] Transform[] plantSpawnPoints;
+    [SerializeField] List<int> availablePlantSpawnList = new List<int>();
+    
     [SerializeField] GameObject[] animals;
     [SerializeField] Transform[] animalSpawnPoints;
-    [SerializeField] List<int> availableSpawnList = new List<int>();
 
     private void Start()
     {       
@@ -29,7 +32,7 @@ public class ShopItemButton : MonoBehaviour
         //Creates our List length based amount of plants
         for(int i = 0; i < plants.Length; i++)
         {
-            availableSpawnList.Add(i);
+            availablePlantSpawnList.Add(i);
         }
         
     }
@@ -129,7 +132,9 @@ public class ShopItemButton : MonoBehaviour
 
             //place the plant on a random place
     
-            Instantiate(plants[buttonIndex], spawnPoints[spawnPoint]);
+            Instantiate(plants[buttonIndex], plantSpawnPoints[spawnPoint]);
+
+            SpawnAnimal();
         }
         else
         {
@@ -143,18 +148,18 @@ public class ShopItemButton : MonoBehaviour
     {
         /*
         int spawnPointCreated = Random.Range(0, plants.Length);
-        int output = availableSpawnList[spawnPointCreated];
-        availableSpawnList.RemoveAt(output);
+        int output = availablePlantSpawnList[spawnPointCreated];
+        availablePlantSpawnList.RemoveAt(output);
         */
 
         if (!allPlantsBought)
         {
-            int spawnPointIndex = Random.Range(0, availableSpawnList.Count);
+            int spawnPointIndex = Random.Range(0, availablePlantSpawnList.Count);
             Debug.Log($"spawnlistcount: {plants.Length}");
-            int spawnPoint = availableSpawnList[spawnPointIndex];
+            int spawnPoint = availablePlantSpawnList[spawnPointIndex];
             Debug.Log($"spawnlistindex: {spawnPointIndex}");
             Debug.Log($"spawnpoint: {spawnPoint}");
-            availableSpawnList.RemoveAt(spawnPointIndex);
+            availablePlantSpawnList.RemoveAt(spawnPointIndex);
 
             plantsBought++;
 
