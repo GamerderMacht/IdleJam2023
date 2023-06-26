@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!1001 &7146182995063123674
+=======
+--- !u!1001 &6494109561546107979
+>>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -14,11 +18,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
       propertyPath: m_SortingLayer
+<<<<<<< Updated upstream
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
       propertyPath: m_SortingLayerID
       value: -611071001
+=======
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 24389737
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
       propertyPath: m_RootOrder
@@ -26,6 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
       propertyPath: m_LocalScale.x
+<<<<<<< Updated upstream
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
@@ -39,6 +56,21 @@ PrefabInstance:
     - target: {fileID: 7878350319992209165, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.52
+=======
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
       propertyPath: m_LocalPosition.z
