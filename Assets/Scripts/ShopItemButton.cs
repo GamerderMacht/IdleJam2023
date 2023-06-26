@@ -16,6 +16,8 @@ public class ShopItemButton : MonoBehaviour
 
     [SerializeField] GameObject[] plants;
     [SerializeField] Transform[] spawnPoints;
+    [SerializeField] GameObject[] animals;
+    [SerializeField] Transform[] animalSpawnPoints;
     [SerializeField] List<int> availableSpawnList = new List<int>();
 
     private void Start()
@@ -56,8 +58,46 @@ public class ShopItemButton : MonoBehaviour
         if (playerCoins.coins >= cost)
         {
             playerCoins.coins -= cost;
-            BuyPlant(buttonIndex);
             playerCoins.UpdateCanvas();
+
+            switch (buttonIndex)
+            {
+                case 0:
+                Debug.Log("Bought from Plant 1");
+                BuyPlant(buttonIndex);
+                cost = NewPrice(cost);
+                break;
+                case 1:
+                Debug.Log("Bought from Plant 2");
+                BuyPlant(buttonIndex);
+                cost = NewPrice(cost);
+                break;
+                case 2:
+                Debug.Log("Bought from Plant 3");
+                BuyPlant(buttonIndex);
+                cost = NewPrice(cost);
+                break;
+                case 3:
+                Debug.Log("Bought from Plant 4");
+                BuyPlant(buttonIndex);
+                cost = NewPrice(cost);
+                break;
+                case 4:
+                Debug.Log("Bought from Plant 5");
+                BuyPlant(buttonIndex);
+                cost = NewPrice(cost);
+                break;
+                case 5:
+                Debug.Log("Bought from Plant 6");
+                BuyPlant(buttonIndex);
+                cost = NewPrice(cost);
+                break;
+                case 6:
+                Debug.Log("Bought from Mutation");
+                BuyMutation(buttonIndex);
+                cost = NewPrice(cost);
+                break;
+            }
 
             Debug.Log("Item bought!");
         }
@@ -65,9 +105,13 @@ public class ShopItemButton : MonoBehaviour
         {
             Debug.Log("Not enough coins!");
         }
+
     }
 
-    
+    public void BuyMutation(int buttonIndex)
+    {
+        
+    }
 
     public void BuyPlant(int buttonIndex)
     {
@@ -93,26 +137,6 @@ public class ShopItemButton : MonoBehaviour
         }
 
         hasPlantSpawned[buttonIndex] = true; // mark this plant type as spawned
-
-        switch (buttonIndex)
-        {
-            case 1:
-            Debug.Log("Bought from Shop 1");
-            cost = NewPrice(cost);
-            break;
-            case 2:
-            Debug.Log("Shop 2");
-            break;
-            case 3:
-            Debug.Log("Shop 3");
-            break;
-            case 4:
-            Debug.Log("Shop 4");
-            break;
-            case 5:
-            Debug.Log("Shop 5");
-            break;
-        }
     }
 
     int CreateSpawnNumber()
@@ -150,6 +174,19 @@ public class ShopItemButton : MonoBehaviour
         float cost = Mathf.Exp(currentCost*1.1f);
         Debug.Log(Mathf.Exp(currentCost*1.1f));
         return (int)cost;
+    }
+
+    void SpawnAnimal()
+    {
+        if (plantsBought == 3)
+        {
+            
+        }
+
+        if (plantsBought == 6)
+        {
+
+        }
     }
     
 }
