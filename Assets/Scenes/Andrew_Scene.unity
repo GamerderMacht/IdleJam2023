@@ -720,6 +720,7 @@ Transform:
   - {fileID: 87607737}
   - {fileID: 211387081}
   - {fileID: 426525383}
+  - {fileID: 1734214209}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -780,7 +781,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 5000
   button: {fileID: 0}
-  prices: 
   plantsBought: 0
   allPlantsBought: 0
   plants:
@@ -2380,6 +2380,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: b73d7d682f1d2f243805f246d48c1445, type: 3}
   m_PrefabInstance: {fileID: 1696885007}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1734214208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1734214209}
+  m_Layer: 0
+  m_Name: Animal SpawnPoint 3
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1734214209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734214208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.99, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 566765038}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1912958848
 GameObject:
   m_ObjectHideFlags: 0
@@ -2764,6 +2795,7 @@ GameObject:
   - component: {fileID: 7717087867956357709}
   - component: {fileID: 7717087867956357710}
   - component: {fileID: 7717087867956357711}
+  - component: {fileID: 7717087867956357712}
   m_Layer: 5
   m_Name: GameManager
   m_TagString: Player
@@ -3077,7 +3109,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 100
   button: {fileID: 0}
-  prices: 
   plantsBought: 0
   allPlantsBought: 0
   plants:
@@ -3668,7 +3699,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 10
   button: {fileID: 0}
-  prices: 
   plantsBought: 0
   allPlantsBought: 0
   plants:
@@ -4009,7 +4039,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 1500
   button: {fileID: 0}
-  prices: 
   plantsBought: 0
   allPlantsBought: 0
   plants:
@@ -4350,7 +4379,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 500
   button: {fileID: 0}
-  prices: 
   plantsBought: 0
   allPlantsBought: 0
   plants:
@@ -4691,7 +4719,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 10
   button: {fileID: 0}
-  prices: 
   plantsBought: 0
   allPlantsBought: 0
   plants:
@@ -4901,7 +4928,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 5000
   button: {fileID: 0}
-  prices: 
   plantsBought: 0
   allPlantsBought: 0
   plants:
@@ -5086,7 +5112,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 10
   button: {fileID: 0}
-  prices: 
   plantsBought: 0
   allPlantsBought: 0
   plants:
@@ -5105,13 +5130,26 @@ MonoBehaviour:
   - {fileID: 87607737}
   availablePlantSpawnList: 
   animals:
-  - {fileID: 5636047420559836097, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
-  - {fileID: 5636047420559836097, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
+  - {fileID: 2108625004666289105, guid: 33c654403518b1c41bf96ca64e3c3bf9, type: 3}
+  - {fileID: 8578161609650341275, guid: cb363076a3848cf4da5e85086ed3b538, type: 3}
   - {fileID: 5636047420559836097, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
   animalSpawnPoints:
   - {fileID: 211387081}
   - {fileID: 426525383}
-  - {fileID: 750996770}
+  - {fileID: 1734214209}
+--- !u!114 &7717087867956357712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48936449911959388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f137c036a45714947863fb7c313a1607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 0a00000064000000e803000010270000204e000060ea0000
 --- !u!1001 &8656066660830036475
 PrefabInstance:
   m_ObjectHideFlags: 0
