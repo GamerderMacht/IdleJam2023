@@ -74,12 +74,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6102456917745982091, guid: 47af93b41193d9b4cb1c2b717201c6c6, type: 3}
+  m_Sprite: {fileID: 4022797812016188616, guid: 5f3139956b348a14b91ba897e8dfb605, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.5625, y: 0.4375}
+  m_Size: {x: 0.18, y: 0.14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ba62ca636e3894f8ff7d58da4c2a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mutationSprite: {fileID: 0}
   multiplierBonus: 6
   afkTimerBonus: 6
   mutationMultiplierBonus: 0
