@@ -924,8 +924,10 @@ MonoBehaviour:
   button: {fileID: 0}
   plantsBought: 0
   allPlantsBought: 0
-  plants: []
-  plantSpawnPoints: []
+  plants:
+  - {fileID: -2253911629886400664, guid: d9c4a627d3ece6f4d81d3c748852a110, type: 3}
+  plantSpawnPoints:
+  - {fileID: 87607737}
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -3556,8 +3558,10 @@ MonoBehaviour:
   button: {fileID: 0}
   plantsBought: 0
   allPlantsBought: 0
-  plants: []
-  plantSpawnPoints: []
+  plants:
+  - {fileID: -2253911629886400664, guid: 59a0a5e0ed872c149917cf220cbc2515, type: 3}
+  plantSpawnPoints:
+  - {fileID: 1655702117}
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -4145,8 +4149,10 @@ MonoBehaviour:
   button: {fileID: 0}
   plantsBought: 0
   allPlantsBought: 0
-  plants: []
-  plantSpawnPoints: []
+  plants:
+  - {fileID: 5463835583709299628, guid: 4e53d882e665e724191eea0845b1915a, type: 3}
+  plantSpawnPoints:
+  - {fileID: 1500521022}
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -4483,15 +4489,10 @@ MonoBehaviour:
   button: {fileID: 0}
   plantsBought: 0
   allPlantsBought: 0
-<<<<<<< HEAD
   plants:
   - {fileID: 582885202177385187, guid: 1624d7d0983a480468f6172204d9a4bd, type: 3}
   plantSpawnPoints:
   - {fileID: 745964516}
-=======
-  plants: []
-  plantSpawnPoints: []
->>>>>>> cd20f96f9c842bc1b0dc5ca0980f023194cce6c9
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -4828,15 +4829,10 @@ MonoBehaviour:
   button: {fileID: 0}
   plantsBought: 0
   allPlantsBought: 0
-<<<<<<< HEAD
   plants:
   - {fileID: 3866433615349140728, guid: 4fc62c43730630e449109c189959f447, type: 3}
   plantSpawnPoints:
   - {fileID: 1099024502}
-=======
-  plants: []
-  plantSpawnPoints: []
->>>>>>> cd20f96f9c842bc1b0dc5ca0980f023194cce6c9
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -5382,15 +5378,10 @@ MonoBehaviour:
   button: {fileID: 0}
   plantsBought: 0
   allPlantsBought: 0
-<<<<<<< HEAD
   plants:
   - {fileID: 1348538712007820698, guid: b74b9eb422a88684f918da4c63950b52, type: 3}
   plantSpawnPoints:
   - {fileID: 45589651}
-=======
-  plants: []
-  plantSpawnPoints: []
->>>>>>> cd20f96f9c842bc1b0dc5ca0980f023194cce6c9
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -5722,8 +5713,8 @@ MonoBehaviour:
   - {fileID: 87607737}
   availablePlantSpawnList: 
   animals:
-  - {fileID: 2108625004666289105, guid: 33c654403518b1c41bf96ca64e3c3bf9, type: 3}
-  - {fileID: 8578161609650341275, guid: cb363076a3848cf4da5e85086ed3b538, type: 3}
+  - {fileID: 5636047420559836097, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
+  - {fileID: 5636047420559836097, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
   animalSpawnPoints:
   - {fileID: 211387081}
   - {fileID: 426525383}
