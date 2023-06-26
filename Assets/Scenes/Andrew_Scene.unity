@@ -801,7 +801,13 @@ MonoBehaviour:
   - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
   - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
   - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
-  plantSpawnPoints: []
+  plantSpawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -844,7 +850,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 584815364}
   m_OnClick:
     m_PersistentCalls:
@@ -3191,7 +3197,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 3002803213875869335}
   m_OnClick:
     m_PersistentCalls:
@@ -3273,7 +3279,13 @@ MonoBehaviour:
   - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
   - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
   - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
-  plantSpawnPoints: []
+  plantSpawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -3740,7 +3752,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 3002803214425444649}
   m_OnClick:
     m_PersistentCalls:
@@ -3822,7 +3834,13 @@ MonoBehaviour:
   - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
   - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
   - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
-  plantSpawnPoints: []
+  plantSpawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -4038,7 +4056,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 3002803214891353784}
   m_OnClick:
     m_PersistentCalls:
@@ -4120,7 +4138,13 @@ MonoBehaviour:
   - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
   - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
   - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
-  plantSpawnPoints: []
+  plantSpawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -4336,7 +4360,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 3002803215058129908}
   m_OnClick:
     m_PersistentCalls:
@@ -4418,7 +4442,13 @@ MonoBehaviour:
   - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
   - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
   - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
-  plantSpawnPoints: []
+  plantSpawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -4676,7 +4706,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 3002803215159962558}
   m_OnClick:
     m_PersistentCalls:
@@ -4797,7 +4827,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 3002803215562594592}
   m_OnClick:
     m_PersistentCalls:
@@ -4879,7 +4909,13 @@ MonoBehaviour:
   - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
   - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
   - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
-  plantSpawnPoints: []
+  plantSpawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
   availablePlantSpawnList: 
   animals: []
   animalSpawnPoints: []
@@ -5157,7 +5193,13 @@ MonoBehaviour:
   - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
   - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
   - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
-  plantSpawnPoints: []
+  plantSpawnPoints:
+  - {fileID: 1500521022}
+  - {fileID: 1099024502}
+  - {fileID: 45589651}
+  - {fileID: 1655702117}
+  - {fileID: 745964516}
+  - {fileID: 87607737}
   availablePlantSpawnList: 
   animals:
   - {fileID: 5636047420559836097, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}

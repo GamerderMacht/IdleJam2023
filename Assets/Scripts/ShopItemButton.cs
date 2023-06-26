@@ -57,7 +57,7 @@ public class ShopItemButton : MonoBehaviour
 
     public void BuyItem(int buttonIndex)
     {
-
+        Debug.Log("buttonindex clicked with is" + buttonIndex);
         if (playerCoins.coins >= cost)
         {
             playerCoins.coins -= cost;
@@ -131,8 +131,8 @@ public class ShopItemButton : MonoBehaviour
             int spawnPoint = CreateSpawnNumber();
 
             //place the plant on a random place
-    
-            Instantiate(plants[buttonIndex], plantSpawnPoints[spawnPoint]);
+           
+            Instantiate(plants[buttonIndex], plantSpawnPoints[spawnPoint].transform.position, Quaternion.identity);
 
             // SpawnAnimal();
         }
