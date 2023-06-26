@@ -1264,6 +1264,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3613881660575607983, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
+      propertyPath: addToBonus
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613881660575607983, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
+      propertyPath: multiplierBonus
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613881660575607983, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
+      propertyPath: addToMultiplierBonus
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5636047420559836097, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
       propertyPath: m_Name
       value: TestAnimal
@@ -2532,11 +2544,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coins: 0
   baseCoinGain: 1
-  afkCoinGain: 0
   baseCoinGainDelay: 5
-  afkCoinGainDelay: 5
-  coinNumber: {fileID: 2127668527}
-  mutationNumber: {fileID: 932859584}
+  bonusCoinsMultiplier: 1
+  coinTxt: {fileID: 467400536}
+  mutationText: {fileID: 1849319076}
 --- !u!1001 &1860314474867421647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4607,6 +4618,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinProductionMultiplier: 1
   coinProductionSpeedDecrease: 0
+  coinBonusMultiplier: 1
+  cooldown: 10
+  bonusReady: 0
 --- !u!1001 &8656066660830036475
 PrefabInstance:
   m_ObjectHideFlags: 0
