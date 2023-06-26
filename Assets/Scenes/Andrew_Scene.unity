@@ -5163,7 +5163,7 @@ MonoBehaviour:
   animals:
   - {fileID: 2108625004666289105, guid: 33c654403518b1c41bf96ca64e3c3bf9, type: 3}
   - {fileID: 8578161609650341275, guid: cb363076a3848cf4da5e85086ed3b538, type: 3}
-  - {fileID: 5636047420559836097, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
+  - {fileID: 1126780850884665525, guid: aeb0d7de1f6f25c43aefae8cc02e3c59, type: 3}
   animalSpawnPoints:
   - {fileID: 211387081}
   - {fileID: 426525383}
