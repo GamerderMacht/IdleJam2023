@@ -924,12 +924,12 @@ MonoBehaviour:
   plantsBought: 0
   allPlantsBought: 0
   plants:
-  - {fileID: 6665118762407231064, guid: b34ec293e1d65a045be3d2470e788754, type: 3}
-  - {fileID: 370459301248720184, guid: dde4da900ceca2f45b0baea0701b47b6, type: 3}
-  - {fileID: 795223521623465146, guid: e2819a0801376344a8fa789bfe6885a4, type: 3}
-  - {fileID: 5477359122682343823, guid: f6b4bece3b393014eb8e4da5ad8d1a8c, type: 3}
-  - {fileID: 6488981261011929481, guid: 4d5ac1fb9edefbe488f3dc23140b5092, type: 3}
-  - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
+  - {fileID: -2253911629886400664, guid: 70fc856372ad6df4cbffa72756e2cda5, type: 3}
+  - {fileID: -2253911629886400664, guid: 59a0a5e0ed872c149917cf220cbc2515, type: 3}
+  - {fileID: -2253911629886400664, guid: 8bb28cd9ba83e614781620ec15b7fe46, type: 3}
+  - {fileID: -2253911629886400664, guid: d9c4a627d3ece6f4d81d3c748852a110, type: 3}
+  - {fileID: -2253911629886400664, guid: a886922db614b0143b99718dbd4f33b0, type: 3}
+  - {fileID: -2253911629886400664, guid: 90932567f4138fe47b09c50e27a61cbc, type: 3}
   plantSpawnPoints:
   - {fileID: 1500521022}
   - {fileID: 1099024502}
