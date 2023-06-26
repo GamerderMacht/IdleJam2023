@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class ShopItemButton : MonoBehaviour
 {
     public int cost;
+    public int plantsBought;
+    public bool allPlantsBought;
     [SerializeField] private Button button;
     bool[] hasPlantSpawned;
     int buttonIndex;
@@ -76,11 +78,19 @@ public class ShopItemButton : MonoBehaviour
             return;
         }
         
-        //generate a random spawnplace
-        int spawnPoint = CreateSpawnNumber();
+        if (!allPlantsBought)
+        {
+            //generate a random spawnplace
+            int spawnPoint = CreateSpawnNumber();
 
-        //place the plant on a random place
-        Instantiate(plants[buttonIndex], spawnPoints[spawnPoint]);
+            //place the plant on a random place
+    
+            Instantiate(plants[buttonIndex], spawnPoints[spawnPoint]);
+        }
+        else
+        {
+            Debug.Log("All plants bought");
+        }
 
         hasPlantSpawned[buttonIndex] = true; // mark this plant type as spawned
 
@@ -113,14 +123,26 @@ public class ShopItemButton : MonoBehaviour
         availableSpawnList.RemoveAt(output);
         */
 
-        int spawnPointIndex = Random.Range(0, availableSpawnList.Count);
-        Debug.Log($"spawnlistcount: {plants.Length}");
-        int spawnPoint = availableSpawnList[spawnPointIndex];
-        Debug.Log($"spawnlistindex: {spawnPointIndex}");
-        Debug.Log($"spawnpoint: {spawnPoint}");
-        availableSpawnList.RemoveAt(spawnPointIndex);
+        if (!allPlantsBought)
+        {
+            int spawnPointIndex = Random.Range(0, availableSpawnList.Count);
+            Debug.Log($"spawnlistcount: {plants.Length}");
+            int spawnPoint = availableSpawnList[spawnPointIndex];
+            Debug.Log($"spawnlistindex: {spawnPointIndex}");
+            Debug.Log($"spawnpoint: {spawnPoint}");
+            availableSpawnList.RemoveAt(spawnPointIndex);
 
-        return spawnPoint;
+            plantsBought++;
+
+            if (plantsBought >= plants.Length)
+            {
+                allPlantsBought = true;
+            }
+
+            return spawnPoint;
+        }
+
+        return 0;
     }
 
     int NewPrice(int currentCost)
