@@ -11,8 +11,9 @@ public class ShopItemButton : MonoBehaviour
     
     int buttonIndex;
     GameObject player;
-    CoinManager playerCoins;
+    CoinManager coinManager;
     ShopPrices shopPrices;
+    AnimalStat animalStat;
 
     bool[] hasPlantSpawned;
     
@@ -26,9 +27,11 @@ public class ShopItemButton : MonoBehaviour
     [SerializeField] Transform[] animalSpawnPoints;
 
     private void Start()
-    {       
+    {      
         shopPrices = FindObjectOfType<ShopPrices>();
-        playerCoins = GameObject.Find("GameManager").GetComponent<CoinManager>();
+        cost = shopPrices.prices[buttonIndex];
+        coinManager = FindObjectOfType<CoinManager>();
+        animalStat = FindObjectOfType<AnimalStat>();
         button = this.GetComponent<Button>();
         hasPlantSpawned = new bool[plants.Length];
 
@@ -44,7 +47,7 @@ public class ShopItemButton : MonoBehaviour
 
         if(this.gameObject.tag != "Player")
         {
-            if(playerCoins.coins >= cost)
+            if(coinManager.coins >= cost)
             {
 
                 button.interactable = true;
@@ -60,11 +63,11 @@ public class ShopItemButton : MonoBehaviour
 
     public void BuyItem(int buttonIndex)
     {
-        Debug.Log("buttonindex clicked with is" + buttonIndex);
-        if (playerCoins.coins >= shopPrices.prices[buttonIndex])
+        Debug.Log("buttonindex clicked with is " + buttonIndex);
+        if (coinManager.coins >= shopPrices.prices[buttonIndex])
         {
-            playerCoins.coins = Mathf.RoundToInt(playerCoins.coins - shopPrices.prices[buttonIndex]);
-            playerCoins.UpdateCanvas();
+            coinManager.coins = Mathf.RoundToInt(coinManager.coins - shopPrices.prices[buttonIndex]);
+            coinManager.UpdateCanvas();
 
             switch (buttonIndex)
             {
@@ -100,7 +103,7 @@ public class ShopItemButton : MonoBehaviour
                 break;
                 case 6:
                 Debug.Log("Bought from Mutation");
-                BuyMutation(buttonIndex);
+                BuyMutation();
                 cost = NewPrice(shopPrices.prices[buttonIndex]);
                 break;
             }
@@ -114,25 +117,9 @@ public class ShopItemButton : MonoBehaviour
 
     }
 
-    public void BuyMutation(int buttonIndex)
+    public void BuyMutation()
     {
-        playerCoins.mutationCount++;
-    }
-
-    public void Mutate(int animalId)
-    {
-        if (playerCoins.mutationCount > 0)
-        {
-            playerCoins.mutationCount--;
-            playerCoins.UpdateCanvas();
-            Instantiate(animals[animalId], animalSpawnPoints[animalId].transform.position, Quaternion.identity);
-            //AnimalGameobjectSprite = NewMutationGameObjectSprite
-            //animalStats.ApplyMutationBonus
-        }
-        else
-        {
-            Debug.Log("Not enough mutations!");
-        }
+        coinManager.mutationCount++;
     }
 
     public void BuyPlant(int buttonIndex)

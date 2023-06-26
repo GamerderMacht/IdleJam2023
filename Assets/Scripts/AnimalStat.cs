@@ -5,8 +5,10 @@ using UnityEngine;
 public class AnimalStat : MonoBehaviour
 {
     AnimalStatBonus animalStatBonus;
+    CoinManager coinManager;
+    ShopItemButton shopItemButton;
     public SpriteRenderer mutationSprite;
-    int mutationLevel;
+    int mutationLevel = 1;
     public float multiplierBonus;
     public float afkTimerBonus;
     public float mutationMultiplierBonus;
@@ -14,6 +16,7 @@ public class AnimalStat : MonoBehaviour
 
     void Start()
     {
+        coinManager = FindObjectOfType<CoinManager>();
         animalStatBonus = FindObjectOfType<AnimalStatBonus>();
         ApplyAnimalBonus();
     }
@@ -21,7 +24,41 @@ public class AnimalStat : MonoBehaviour
     // This is the method to be called on click
     public void OnObjectClick()
     {
-        Debug.Log("GameObject was clicked!");
+
+        Mutate();
+        Debug.Log("Animal GameObject was clicked!");
+        
+    }
+
+    public void Mutate()
+    {
+        if (coinManager.mutationCount > 0)
+        {   
+            coinManager.mutationCount--;
+            coinManager.UpdateCanvas();
+
+            switch (mutationLevel) {
+                case 1:
+                    mutationLevel++;
+                    break;
+                case 2:
+                    mutationLevel++;
+                    break;
+                case 3:
+                    mutationLevel++;
+                    break;
+                case 4:
+                    Debug.Log("Reached maximum mutation level!");
+                    break;
+            }
+
+            //AnimalGameobjectSprite = NewMutationGameObjectSprite
+            //animalStats.ApplyMutationBonus
+        }
+        else
+        {
+            Debug.Log("Not enough mutations!");
+        }
     }
 
     void ApplyAnimalBonus()
