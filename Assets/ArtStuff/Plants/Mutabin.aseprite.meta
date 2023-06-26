@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Mutabin
+  - name: Mutabin_Frame_0
     originalName: 
     pivot: {x: 0.48387095, y: 0}
     alignment: 9
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 43
-    spriteID: 9963861b85bea52418a5e077a0cebc51
+    spriteID: cf70d9d4892509248b44d0592a634344
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,6 +139,586 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Mutabin_Frame_1
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 55
+      width: 31
+      height: 43
+    spriteID: 0004e5f470794d94aab826f6fbdcc7b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 55}
+  - name: Mutabin_Frame_2
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 106
+      width: 31
+      height: 43
+    spriteID: c083d270ebd593c4f9e85c7caa89bab4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 106}
+  - name: Mutabin_Frame_3
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 157
+      width: 31
+      height: 43
+    spriteID: 472405e47c39aa943a67f93b545f748d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 157}
+  - name: Mutabin_Frame_4
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 208
+      width: 31
+      height: 43
+    spriteID: d10b5a5aa345f0b48aba8056ae1c315d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 208}
+  - name: Mutabin_Frame_5
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 4
+      width: 31
+      height: 43
+    spriteID: c30652050ceb68042b1955df5123858c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 4}
+  - name: Mutabin_Frame_6
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 55
+      width: 31
+      height: 43
+    spriteID: 8887936dfa532ed41b3745f55794fb97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 55}
+  - name: Mutabin_Frame_7
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 106
+      width: 31
+      height: 43
+    spriteID: e51e7e23f8f0c67478319542f0ba860b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 106}
+  - name: Mutabin_Frame_8
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 157
+      width: 31
+      height: 43
+    spriteID: 8e48cffe89ecfc9478580250d9461f3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 157}
+  - name: Mutabin_Frame_9
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 208
+      width: 31
+      height: 43
+    spriteID: 60510fe904b2b1c4d9987bcff8622e84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 208}
+  - name: Mutabin_Frame_10
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 4
+      width: 31
+      height: 42
+    spriteID: ca7c050f8c82cfe4493dd377ddf82d95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 4}
+  - name: Mutabin_Frame_11
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 54
+      width: 31
+      height: 42
+    spriteID: 5bd67bb7e665c914a8397a626392c74d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 54}
+  - name: Mutabin_Frame_12
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 104
+      width: 31
+      height: 42
+    spriteID: 0fb3c4765e4be1b468131671a44088b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 104}
+  - name: Mutabin_Frame_13
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 154
+      width: 31
+      height: 42
+    spriteID: 84f6f575827d83e499798dea8c1cd960
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 154}
+  - name: Mutabin_Frame_14
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 204
+      width: 31
+      height: 42
+    spriteID: 7bf156fda36a5c844834bee4e9c4c016
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 204}
+  - name: Mutabin_Frame_15
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 4
+      width: 31
+      height: 42
+    spriteID: 2b3eedb0a9ff2874196edcb18dd017b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 4}
+  - name: Mutabin_Frame_16
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 54
+      width: 31
+      height: 42
+    spriteID: afa54f6e347f8a842a1e3eed7a855912
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 54}
+  - name: Mutabin_Frame_17
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 104
+      width: 31
+      height: 42
+    spriteID: 1e26cbfd542b9cc4c851c3e576617f47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 104}
+  - name: Mutabin_Frame_18
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 154
+      width: 31
+      height: 42
+    spriteID: 038e1fcf580b52249875d3775bed8095
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 154}
+  - name: Mutabin_Frame_19
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 204
+      width: 31
+      height: 42
+    spriteID: d9838d0dae60abf4bab814013b26f1cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 204}
+  - name: Mutabin_Frame_20
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 4
+      width: 31
+      height: 42
+    spriteID: 65a46da1f62b95448b5802b91131df39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 4}
+  - name: Mutabin_Frame_21
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 54
+      width: 31
+      height: 42
+    spriteID: a2bd70c4970a06f4ebe725dd010d786b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 54}
+  - name: Mutabin_Frame_22
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 104
+      width: 31
+      height: 42
+    spriteID: 60f15fd7313a2434aae0048b9bb11fcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 104}
+  - name: Mutabin_Frame_23
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 154
+      width: 31
+      height: 42
+    spriteID: a7f0ebb1f96edaf4998b34bb13457de3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 154}
+  - name: Mutabin_Frame_24
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 204
+      width: 31
+      height: 42
+    spriteID: 79e283e081c09a74ebbfff2d62115819
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 204}
+  - name: Mutabin_Frame_25
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 4
+      width: 31
+      height: 42
+    spriteID: c19a0b32411987144bf1a3b805e77b40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 4}
+  - name: Mutabin_Frame_26
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 54
+      width: 31
+      height: 42
+    spriteID: d86a8c9deed6b804a9dec08909e33c90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 54}
+  - name: Mutabin_Frame_27
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 104
+      width: 31
+      height: 42
+    spriteID: 0b7b323be9549f746871f2320a561021
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 104}
+  - name: Mutabin_Frame_28
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 154
+      width: 31
+      height: 42
+    spriteID: 36cb3d091913e3444b8e805edb7c666b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 154}
+  - name: Mutabin_Frame_29
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 204
+      width: 31
+      height: 42
+    spriteID: bf08462c5ccf4e146869da90242d114b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 204}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -148,14 +728,246 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Mutabin
+    - name: Mutabin_Frame_0
       frameIndex: 0
       cellRect:
         x: 17
         y: 0
         width: 31
         height: 43
-      spriteId: 9963861b85bea52418a5e077a0cebc51
+      spriteId: cf70d9d4892509248b44d0592a634344
+    - name: Mutabin_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 43
+      spriteId: 0004e5f470794d94aab826f6fbdcc7b7
+    - name: Mutabin_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 43
+      spriteId: c083d270ebd593c4f9e85c7caa89bab4
+    - name: Mutabin_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 43
+      spriteId: 472405e47c39aa943a67f93b545f748d
+    - name: Mutabin_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 43
+      spriteId: d10b5a5aa345f0b48aba8056ae1c315d
+    - name: Mutabin_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 43
+      spriteId: c30652050ceb68042b1955df5123858c
+    - name: Mutabin_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 43
+      spriteId: 8887936dfa532ed41b3745f55794fb97
+    - name: Mutabin_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 43
+      spriteId: e51e7e23f8f0c67478319542f0ba860b
+    - name: Mutabin_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 43
+      spriteId: 8e48cffe89ecfc9478580250d9461f3c
+    - name: Mutabin_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 43
+      spriteId: 60510fe904b2b1c4d9987bcff8622e84
+    - name: Mutabin_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: ca7c050f8c82cfe4493dd377ddf82d95
+    - name: Mutabin_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 5bd67bb7e665c914a8397a626392c74d
+    - name: Mutabin_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 0fb3c4765e4be1b468131671a44088b1
+    - name: Mutabin_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 84f6f575827d83e499798dea8c1cd960
+    - name: Mutabin_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 7bf156fda36a5c844834bee4e9c4c016
+    - name: Mutabin_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 2b3eedb0a9ff2874196edcb18dd017b5
+    - name: Mutabin_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: afa54f6e347f8a842a1e3eed7a855912
+    - name: Mutabin_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 1e26cbfd542b9cc4c851c3e576617f47
+    - name: Mutabin_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 038e1fcf580b52249875d3775bed8095
+    - name: Mutabin_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: d9838d0dae60abf4bab814013b26f1cf
+    - name: Mutabin_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 65a46da1f62b95448b5802b91131df39
+    - name: Mutabin_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: a2bd70c4970a06f4ebe725dd010d786b
+    - name: Mutabin_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 60f15fd7313a2434aae0048b9bb11fcc
+    - name: Mutabin_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: a7f0ebb1f96edaf4998b34bb13457de3
+    - name: Mutabin_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 79e283e081c09a74ebbfff2d62115819
+    - name: Mutabin_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: c19a0b32411987144bf1a3b805e77b40
+    - name: Mutabin_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: d86a8c9deed6b804a9dec08909e33c90
+    - name: Mutabin_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 0b7b323be9549f746871f2320a561021
+    - name: Mutabin_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: 36cb3d091913e3444b8e805edb7c666b
+    - name: Mutabin_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 17
+        y: 0
+        width: 31
+        height: 42
+      spriteId: bf08462c5ccf4e146869da90242d114b
     linkedCells: []
     parentIndex: -1
   platformSettings: []
