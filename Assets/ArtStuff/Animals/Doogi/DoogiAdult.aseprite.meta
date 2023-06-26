@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1101b2e355dbef645b713524e26084dc
+guid: 5ec937af927505148ae89ae44cd0ab02
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 32
+    spritePixelsToUnits: 100
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638233770762716127
+  platformSettingsDirtyTick: 638233735512173564
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Bun 2
+  - name: DoogiAdult
     originalName: 
-    pivot: {x: 0.5357143, y: -0.17391305}
+    pivot: {x: 0.61538464, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 28
-      height: 23
-    spriteID: 154e2a6b4ce02c5468ad2d39e0d0096d
+      width: 26
+      height: 22
+    spriteID: bff9b79cffc17044b9bb223c5621149f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,20 +142,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -90319313
-    name: Bun 2
+    guid: 488208080
+    name: DoogiAdult
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Bun 2
+    - name: DoogiAdult
       frameIndex: 0
       cellRect:
-        x: 1
-        y: 4
-        width: 28
-        height: 23
-      spriteId: 154e2a6b4ce02c5468ad2d39e0d0096d
+        x: 0
+        y: 0
+        width: 26
+        height: 22
+      spriteId: bff9b79cffc17044b9bb223c5621149f
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -184,6 +184,18 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
     overridden: 0
     ignorePlatformSupport: 0
     maxTextureSize: 2048

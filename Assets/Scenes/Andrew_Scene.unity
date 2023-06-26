@@ -5577,9 +5577,11 @@ MonoBehaviour:
   animals:
   - {fileID: 5636047420559836097, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
   - {fileID: 5636047420559836097, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
+  - {fileID: 5636047420559836097, guid: e76828097b4256e4db8bfff9ca431a72, type: 3}
   animalSpawnPoints:
   - {fileID: 211387081}
   - {fileID: 426525383}
+  - {fileID: 750996770}
 --- !u!1001 &8656066660830036475
 PrefabInstance:
   m_ObjectHideFlags: 0
