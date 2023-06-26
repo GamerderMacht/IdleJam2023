@@ -56,7 +56,7 @@ public class CoinManager : MonoBehaviour
             afkCoinGainDelay = (baseCoinGainDelay - animalStatBonus.coinProductionSpeedDecrease);
             coins += afkCoinGain;
             UpdateCanvas();
-            Debug.Log(coins);
+            // Debug.Log(coins);
 
             yield return new WaitForSeconds (afkCoinGainDelay);
         }
