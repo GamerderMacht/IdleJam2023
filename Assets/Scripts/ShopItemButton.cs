@@ -99,18 +99,20 @@ public class ShopItemButton : MonoBehaviour
 
     int CreateSpawnNumber()
     {
+        /*
         int spawnPointCreated = Random.Range(0, plants.Length);
         int output = availableSpawnList[spawnPointCreated];
         availableSpawnList.RemoveAt(output);
+        */
 
-
-        /*int spawnPointIndex = Random.Range(0, availableSpawnList.Count);
+        int spawnPointIndex = Random.Range(0, availableSpawnList.Count);
         Debug.Log("spawnlistcount "+ plants.Length);
         int spawnPoint = availableSpawnList[spawnPointIndex];
         Debug.Log("spawnlistindex "+ spawnPointIndex);
         Debug.Log("spawnpoint "+ spawnPoint);
         availableSpawnList.RemoveAt(spawnPointIndex);
-        */return output;
+
+        return spawnPoint;
     }
 
     int NewPrice(int currentCost)
