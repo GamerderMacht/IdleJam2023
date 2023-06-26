@@ -12,9 +12,10 @@ public class ShopItemButton : MonoBehaviour
     int buttonIndex;
     GameObject player;
     CoinManager playerCoins;
+    ShopPrices shopPrices;
 
     bool[] hasPlantSpawned;
-    public int[] prices;
+    
     public int plantsBought;
     public bool allPlantsBought;
     [SerializeField] GameObject[] plants;
@@ -26,6 +27,7 @@ public class ShopItemButton : MonoBehaviour
 
     private void Start()
     {       
+        shopPrices = FindObjectOfType<ShopPrices>();
         playerCoins = GameObject.Find("GameManager").GetComponent<CoinManager>();
         button = this.GetComponent<Button>();
         hasPlantSpawned = new bool[plants.Length];
@@ -59,9 +61,9 @@ public class ShopItemButton : MonoBehaviour
     public void BuyItem(int buttonIndex)
     {
         Debug.Log("buttonindex clicked with is" + buttonIndex);
-        if (playerCoins.coins >= prices[buttonIndex])
+        if (playerCoins.coins >= shopPrices.prices[buttonIndex])
         {
-            playerCoins.coins = Mathf.RoundToInt(playerCoins.coins - prices[buttonIndex]);
+            playerCoins.coins = Mathf.RoundToInt(playerCoins.coins - shopPrices.prices[buttonIndex]);
             playerCoins.UpdateCanvas();
 
             switch (buttonIndex)
@@ -69,37 +71,37 @@ public class ShopItemButton : MonoBehaviour
                 case 0:
                 Debug.Log("Bought from Plant 1");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(prices[buttonIndex]);
+                cost = NewPrice(shopPrices.prices[buttonIndex]);
                 break;
                 case 1:
                 Debug.Log("Bought from Plant 2");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(prices[buttonIndex]);
+                cost = NewPrice(shopPrices.prices[buttonIndex]);
                 break;
                 case 2:
                 Debug.Log("Bought from Plant 3");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(prices[buttonIndex]);
+                cost = NewPrice(shopPrices.prices[buttonIndex]);
                 break;
                 case 3:
                 Debug.Log("Bought from Plant 4");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(prices[buttonIndex]);
+                cost = NewPrice(shopPrices.prices[buttonIndex]);
                 break;
                 case 4:
                 Debug.Log("Bought from Plant 5");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(prices[buttonIndex]);
+                cost = NewPrice(shopPrices.prices[buttonIndex]);
                 break;
                 case 5:
                 Debug.Log("Bought from Plant 6");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(prices[buttonIndex]);
+                cost = NewPrice(shopPrices.prices[buttonIndex]);
                 break;
                 case 6:
                 Debug.Log("Bought from Mutation");
                 BuyMutation(buttonIndex);
-                cost = NewPrice(prices[buttonIndex]);
+                cost = NewPrice(shopPrices.prices[buttonIndex]);
                 break;
             }
 
@@ -184,8 +186,8 @@ public class ShopItemButton : MonoBehaviour
     int NewPrice(int currentCost)
     {
         float cost = currentCost * 1.1f;
-        Debug.Log(prices[buttonIndex]);
-        return Mathf.RoundToInt(prices[buttonIndex]);
+        Debug.Log(shopPrices.prices[buttonIndex]);
+        return Mathf.RoundToInt(shopPrices.prices[buttonIndex]);
 
     }
 
