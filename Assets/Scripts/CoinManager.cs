@@ -8,6 +8,7 @@ public class CoinManager : MonoBehaviour
 {
     AnimalStatBonus animalStatBonus;
     public static CoinManager instance = null;
+    public int mutationCount = 0;
     public float coins;
     public float baseCoinGain = 1;
     public float afkCoinGain = 0;

@@ -14,6 +14,7 @@ public class ShopItemButton : MonoBehaviour
     CoinManager playerCoins;
 
     bool[] hasPlantSpawned;
+    public int[] prices;
     public int plantsBought;
     public bool allPlantsBought;
     [SerializeField] GameObject[] plants;
@@ -68,37 +69,37 @@ public class ShopItemButton : MonoBehaviour
                 case 0:
                 Debug.Log("Bought from Plant 1");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(cost);
+                cost = NewPrice(prices[0]);
                 break;
                 case 1:
                 Debug.Log("Bought from Plant 2");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(cost);
+                cost = NewPrice(prices[1]);
                 break;
                 case 2:
                 Debug.Log("Bought from Plant 3");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(cost);
+                cost = NewPrice(prices[2]);
                 break;
                 case 3:
                 Debug.Log("Bought from Plant 4");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(cost);
+                cost = NewPrice(prices[3]);
                 break;
                 case 4:
                 Debug.Log("Bought from Plant 5");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(cost);
+                cost = NewPrice(prices[4]);
                 break;
                 case 5:
                 Debug.Log("Bought from Plant 6");
                 BuyPlant(buttonIndex);
-                cost = NewPrice(cost);
+                cost = NewPrice(prices[5]);
                 break;
                 case 6:
                 Debug.Log("Bought from Mutation");
                 BuyMutation(buttonIndex);
-                cost = NewPrice(cost);
+                cost = NewPrice(prices[6]);
                 break;
             }
 
@@ -113,7 +114,23 @@ public class ShopItemButton : MonoBehaviour
 
     public void BuyMutation(int buttonIndex)
     {
-        
+        playerCoins.mutationCount++;
+    }
+
+    public void Mutate(int animalId)
+    {
+        if (playerCoins.mutationCount > 0)
+        {
+            playerCoins.mutationCount--;
+            playerCoins.UpdateCanvas();
+            Instantiate(animals[animalId], animalSpawnPoints[animalId].transform.position, Quaternion.identity);
+            //AnimalGameobjectSprite = NewMutationGameObjectSprite
+            //animalStats.ApplyMutationBonus
+        }
+        else
+        {
+            Debug.Log("Not enough mutations!");
+        }
     }
 
     public void BuyPlant(int buttonIndex)
@@ -169,6 +186,7 @@ public class ShopItemButton : MonoBehaviour
         float cost = currentCost * 1.1f;
         Debug.Log(cost);
         return Mathf.RoundToInt(cost);
+
     }
 
     void SpawnAnimal()
@@ -183,5 +201,4 @@ public class ShopItemButton : MonoBehaviour
             Instantiate(animals[1], animalSpawnPoints[1].transform.position, Quaternion.identity);
         }
     }
-    
 }

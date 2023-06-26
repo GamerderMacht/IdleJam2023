@@ -5,6 +5,7 @@ using UnityEngine;
 public class AnimalStat : MonoBehaviour
 {
     AnimalStatBonus animalStatBonus;
+    public SpriteRenderer mutationSprite;
     bool mutation;
     public float multiplierBonus;
     public float afkTimerBonus;

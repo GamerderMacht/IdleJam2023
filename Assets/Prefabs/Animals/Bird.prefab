@@ -82,7 +82,7 @@ SpriteRenderer:
   m_Size: {x: 0.17, y: 0.22}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &2541398297773910061
@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ba62ca636e3894f8ff7d58da4c2a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mutationSprite: {fileID: 5365301582209889327, guid: b19e96a28c1e9f141b7c7ad8d74230d3, type: 3}
   multiplierBonus: 3
   afkTimerBonus: 3
   mutationMultiplierBonus: 0
