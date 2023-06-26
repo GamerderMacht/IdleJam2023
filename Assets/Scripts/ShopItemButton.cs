@@ -7,7 +7,7 @@ public class ShopItemButton : MonoBehaviour
 {
     public int cost;
     [SerializeField] private Button button;
-    
+    bool[] hasPlantSpawned;
     int buttonIndex;
     GameObject player;
     CoinManager playerCoins;
@@ -20,7 +20,7 @@ public class ShopItemButton : MonoBehaviour
     {       
         playerCoins = GameObject.Find("GameManager").GetComponent<CoinManager>();
         button = this.GetComponent<Button>();
-
+        hasPlantSpawned = new bool[plants.Length];
 
         //Creates our List length based amount of plants
         for(int i = 0; i < plants.Length; i++)
@@ -69,12 +69,20 @@ public class ShopItemButton : MonoBehaviour
 
     public void BuyPlant(int buttonIndex)
     {
+
+        if (hasPlantSpawned[buttonIndex])
+        {
+            Debug.Log("This plant has already been spawned!");
+            return;
+        }
         
         //generate a random spawnplace
         int spawnPoint = CreateSpawnNumber();
 
         //place the plant on a random place
         Instantiate(plants[buttonIndex], spawnPoints[spawnPoint]);
+
+        hasPlantSpawned[buttonIndex] = true; // mark this plant type as spawned
 
         switch (buttonIndex)
         {
@@ -106,10 +114,10 @@ public class ShopItemButton : MonoBehaviour
         */
 
         int spawnPointIndex = Random.Range(0, availableSpawnList.Count);
-        Debug.Log("spawnlistcount "+ plants.Length);
+        Debug.Log($"spawnlistcount: {plants.Length}");
         int spawnPoint = availableSpawnList[spawnPointIndex];
-        Debug.Log("spawnlistindex "+ spawnPointIndex);
-        Debug.Log("spawnpoint "+ spawnPoint);
+        Debug.Log($"spawnlistindex: {spawnPointIndex}");
+        Debug.Log($"spawnpoint: {spawnPoint}");
         availableSpawnList.RemoveAt(spawnPointIndex);
 
         return spawnPoint;
@@ -120,6 +128,6 @@ public class ShopItemButton : MonoBehaviour
         float cost = Mathf.Exp(currentCost*1.1f);
         Debug.Log(Mathf.Exp(currentCost*1.1f));
         return (int)cost;
-    } 
+    }
     
 }
