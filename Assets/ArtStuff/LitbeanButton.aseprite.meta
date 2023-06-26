@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1407dd2c686baaf4ab9297caa5bb95ae
+guid: 7b720bcb8018e8f419e503f0ff034a20
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: HeartmineButton
+  - name: LitbeanButton
     originalName: 
     pivot: {x: 0.5, y: -0.22950819}
     alignment: 9
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 100
       height: 61
-    spriteID: 9e4b6207b65109f428b9c2c5e4eb17f9
+    spriteID: 14b22d934e7688c48af83792bed7098b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,20 +142,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -922622649
-    name: HeartmineButton
+    guid: 1118123739
+    name: LitbeanButton
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: HeartmineButton
+    - name: LitbeanButton
       frameIndex: 0
       cellRect:
         x: 0
         y: 14
         width: 100
         height: 61
-      spriteId: 9e4b6207b65109f428b9c2c5e4eb17f9
+      spriteId: 14b22d934e7688c48af83792bed7098b
     linkedCells: []
     parentIndex: -1
   platformSettings: []
