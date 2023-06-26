@@ -49,3 +49,6 @@ TagManager:
   - name: Plants
     uniqueID: 3683896295
     locked: 0
+  - name: Animal
+    uniqueID: 2487675285
+    locked: 0

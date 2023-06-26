@@ -166,9 +166,9 @@ public class ShopItemButton : MonoBehaviour
 
     int NewPrice(int currentCost)
     {
-        float cost = Mathf.Exp(currentCost*1.1f);
-        Debug.Log(Mathf.Exp(currentCost*1.1f));
-        return (int)cost;
+        float cost = currentCost * 1.1f;
+        Debug.Log(cost);
+        return Mathf.RoundToInt(cost);
     }
 
     void SpawnAnimal()
