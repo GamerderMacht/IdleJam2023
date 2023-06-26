@@ -3733,7 +3733,7 @@ MonoBehaviour:
   plantsBought: 0
   allPlantsBought: 0
   plants:
-  - {fileID: 5463835583709299628, guid: 4e53d882e665e724191eea0845b1915a, type: 3}
+  - {fileID: 126300512548501269, guid: 4e53d882e665e724191eea0845b1915a, type: 3}
   plantSpawnPoints:
   - {fileID: 1500521022}
   availablePlantSpawnList: 
@@ -5146,7 +5146,7 @@ MonoBehaviour:
   plantsBought: 0
   allPlantsBought: 0
   plants:
-  - {fileID: 5463835583709299628, guid: 4e53d882e665e724191eea0845b1915a, type: 3}
+  - {fileID: 126300512548501269, guid: 4e53d882e665e724191eea0845b1915a, type: 3}
   - {fileID: 3861631443748272318, guid: e95c753149b47b645aa9398da43d3e26, type: 3}
   - {fileID: 3866433615349140728, guid: 4fc62c43730630e449109c189959f447, type: 3}
   - {fileID: 582885202177385187, guid: 1624d7d0983a480468f6172204d9a4bd, type: 3}
