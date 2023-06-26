@@ -180,12 +180,12 @@ public class ShopItemButton : MonoBehaviour
     {
         if (plantsBought == 3)
         {
-            
+            Instantiate(animals[0], animalSpawnPoints[0]);
         }
 
         if (plantsBought == 6)
         {
-
+            Instantiate(animals[1], animalSpawnPoints[1]);
         }
     }
     

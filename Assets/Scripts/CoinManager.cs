@@ -40,12 +40,12 @@ public class CoinManager : MonoBehaviour
     }
     void Update()
     {
-        
+        UpdateCanvas();
     }
     public void Click() //Handles the player receiving coins by clicking on plants
     {
         coins += 100000;
-        coinTxt.text = coins.ToString();
+        //coinTxt.text = coins.ToString();
     }
     IEnumerator CoinFarm() //handles the coins the player gets over time
     {
