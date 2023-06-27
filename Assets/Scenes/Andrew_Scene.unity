@@ -4778,8 +4778,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f137c036a45714947863fb7c313a1607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceText: []
-  prices: 0a00000064000000e803000010270000204e000060ea0000
+  priceText:
+  - {fileID: 1099023232}
+  - {fileID: 1292678935}
+  - {fileID: 815238253}
+  - {fileID: 1673652806}
+  - {fileID: 263442068}
+  - {fileID: 117404457}
+  - {fileID: 2058775210}
+  prices: 0a00000064000000e803000010270000204e000060ea000060ea0000
 --- !u!1001 &8656066660830036475
 PrefabInstance:
   m_ObjectHideFlags: 0
