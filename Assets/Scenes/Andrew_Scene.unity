@@ -4343,8 +4343,17 @@ MonoBehaviour:
   - {fileID: 2726761548498802737, guid: e0def0269b156d94fa797e3beff693c5, type: 3}
   plantSpawnPoints: []
   availablePlantSpawnList: 
-  animals: []
-  animalSpawnPoints: []
+  animals:
+  - {fileID: 5735078384074255207, guid: eb421f54faeb1904dac83badd3c70796, type: 3}
+  - {fileID: 172040541359884773, guid: 3a57e5ce46b712f40a4c2c4cc4e65074, type: 3}
+  - {fileID: 8105331323015134721, guid: 93ec68a9a203eea4abb923414813d3cc, type: 3}
+  - {fileID: 7962035708411887548, guid: 34b86b8fdbc23dd4bb0261095b195aa5, type: 3}
+  - {fileID: 5883430681443129306, guid: 0b503a5d8e4b40a4a8d8c8f703bb5d6a, type: 3}
+  - {fileID: 5293461749281353699, guid: b19e96a28c1e9f141b7c7ad8d74230d3, type: 3}
+  animalSpawnPoints:
+  - {fileID: 211387081}
+  - {fileID: 426525383}
+  - {fileID: 1734214209}
 --- !u!114 &3002803215159962561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4751,8 +4760,8 @@ MonoBehaviour:
   availablePlantSpawnList: 
   animals:
   - {fileID: 5740058245729560329, guid: 05ee027f66ea05c4db4ea42dd048facd, type: 3}
-  - {fileID: 8578161609650341275, guid: cb363076a3848cf4da5e85086ed3b538, type: 3}
-  - {fileID: 1126780850884665525, guid: aeb0d7de1f6f25c43aefae8cc02e3c59, type: 3}
+  - {fileID: 6890466278413985676, guid: fdb0df0dcd3d87745b7b495cc64c6530, type: 3}
+  - {fileID: 4283639971926355714, guid: aeb0d7de1f6f25c43aefae8cc02e3c59, type: 3}
   animalSpawnPoints:
   - {fileID: 211387081}
   - {fileID: 426525383}

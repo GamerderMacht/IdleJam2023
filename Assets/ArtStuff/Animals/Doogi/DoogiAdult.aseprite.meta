@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638233962755447452
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,7 +119,407 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: DoogiAdult
+  - name: DoogiAdult_Frame_0
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 95
+      width: 26
+      height: 22
+    spriteID: 87150969f106e7e408647c937a45c381
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 95}
+  - name: DoogiAdult_Frame_1
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 95
+      width: 26
+      height: 22
+    spriteID: 4872d64f9f2201840ab514ccab6d7e3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 95}
+  - name: DoogiAdult_Frame_2
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 95
+      width: 26
+      height: 22
+    spriteID: 68bb6daf28a175e4ebf11959ca21d320
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 95}
+  - name: DoogiAdult_Frame_3
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 95
+      width: 26
+      height: 22
+    spriteID: 0c1b8ae750c091a4294295b6a19240d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 95}
+  - name: DoogiAdult_Frame_4
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 95
+      width: 26
+      height: 22
+    spriteID: 5f1504a2300ce8c4ab75e8e01ee91d9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 95}
+  - name: DoogiAdult_Frame_5
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 174
+      y: 95
+      width: 26
+      height: 22
+    spriteID: 97c2a1c0561c59e4eb27e2b392df4aac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 174, y: 95}
+  - name: DoogiAdult_Frame_6
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 95
+      width: 26
+      height: 22
+    spriteID: 513f040fc46ee534cacd826352622bc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 208, y: 95}
+  - name: DoogiAdult_Frame_7
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 125
+      width: 26
+      height: 22
+    spriteID: b94604c9f832d114596ab431e29f6a17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 125}
+  - name: DoogiAdult_Frame_8
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 125
+      width: 26
+      height: 22
+    spriteID: e37aeed8b5658f846a8487a4deea608c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 125}
+  - name: DoogiAdult_Frame_9
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 35
+      width: 28
+      height: 21
+    spriteID: c811bae06aedd9a42a1a4fa8e53de3ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 35}
+  - name: DoogiAdult_Frame_10
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 35
+      width: 28
+      height: 21
+    spriteID: c1a133d475d5fee41b1fd2952554131c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 35}
+  - name: DoogiAdult_Frame_11
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 35
+      width: 28
+      height: 21
+    spriteID: eef5159748bd82b4ba3822a932485bb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 35}
+  - name: DoogiAdult_Frame_12
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 35
+      width: 28
+      height: 21
+    spriteID: 4680c053f9ac9464a9cde8f5735a50f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 35}
+  - name: DoogiAdult_Frame_13
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 66
+      width: 28
+      height: 21
+    spriteID: 4eec884aa94280e47baaed4a056154f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 66}
+  - name: DoogiAdult_Frame_14
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 66
+      width: 28
+      height: 21
+    spriteID: 4ff5dda6410a5d542b40967de6679f15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 66}
+  - name: DoogiAdult_Frame_15
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 66
+      width: 28
+      height: 21
+    spriteID: 4c15835d799738145914da8809ef3a0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 66}
+  - name: DoogiAdult_Frame_16
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 66
+      width: 28
+      height: 21
+    spriteID: 875e466a4c9983c479c1d1a203d81a0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 66}
+  - name: DoogiAdult_Frame_17
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 66
+      width: 28
+      height: 21
+    spriteID: 90d8c492e1002424cb5ffa0659ab03d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 66}
+  - name: DoogiAdult_Frame_18
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 66
+      width: 28
+      height: 21
+    spriteID: 3927d6e4d5803b941b089e3b4c7b82a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 66}
+  - name: DoogiAdult_Frame_19
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 66
+      width: 28
+      height: 21
+    spriteID: 1a5a976e0b21f4244bb3642b6d34ef44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 66}
+  - name: DoogiAdult_Frame_20
     originalName: 
     pivot: {x: 0.61538464, y: 0}
     alignment: 9
@@ -129,8 +529,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 26
-      height: 22
-    spriteID: bff9b79cffc17044b9bb223c5621149f
+      height: 23
+    spriteID: 69c8b0da21580bb4b89ee286d49a6b9d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,6 +539,186 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: DoogiAdult_Frame_21
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 4
+      width: 26
+      height: 23
+    spriteID: b3d65e1aa3c753a408f62a5e12a6616f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 4}
+  - name: DoogiAdult_Frame_22
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 4
+      width: 26
+      height: 23
+    spriteID: a09404e89c1a72140911220f7c75abd4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 4}
+  - name: DoogiAdult_Frame_23
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 4
+      width: 26
+      height: 23
+    spriteID: e38eb89372221bf42881efff38bdfcb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 4}
+  - name: DoogiAdult_Frame_24
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 4
+      width: 26
+      height: 23
+    spriteID: 2cc5a5e87e7c70e4682540a66e0d9a02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 4}
+  - name: DoogiAdult_Frame_25
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 174
+      y: 4
+      width: 26
+      height: 23
+    spriteID: 4f00ff45aaf93d745a82b3c4e5990ccc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 174, y: 4}
+  - name: DoogiAdult_Frame_26
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 4
+      width: 26
+      height: 23
+    spriteID: fb35d3696f287204e9a31662e207c3c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 208, y: 4}
+  - name: DoogiAdult_Frame_27
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 35
+      width: 26
+      height: 23
+    spriteID: b1acbe4e321c2a64c9b7323e987ce049
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 35}
+  - name: DoogiAdult_Frame_28
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 35
+      width: 26
+      height: 23
+    spriteID: 1718741eb3c880c409a3f84409f27820
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 35}
+  - name: DoogiAdult_Frame_29
+    originalName: 
+    pivot: {x: 0.61538464, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 35
+      width: 26
+      height: 23
+    spriteID: 0a725ba4106422f478f6206ef5f42320
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 35}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -148,65 +728,249 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: DoogiAdult
+    - name: DoogiAdult_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
         width: 26
         height: 22
-      spriteId: bff9b79cffc17044b9bb223c5621149f
+      spriteId: 87150969f106e7e408647c937a45c381
+    - name: DoogiAdult_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 22
+      spriteId: 4872d64f9f2201840ab514ccab6d7e3c
+    - name: DoogiAdult_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 22
+      spriteId: 68bb6daf28a175e4ebf11959ca21d320
+    - name: DoogiAdult_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 22
+      spriteId: 0c1b8ae750c091a4294295b6a19240d3
+    - name: DoogiAdult_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 22
+      spriteId: 5f1504a2300ce8c4ab75e8e01ee91d9a
+    - name: DoogiAdult_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 22
+      spriteId: 97c2a1c0561c59e4eb27e2b392df4aac
+    - name: DoogiAdult_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 22
+      spriteId: 513f040fc46ee534cacd826352622bc5
+    - name: DoogiAdult_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 22
+      spriteId: b94604c9f832d114596ab431e29f6a17
+    - name: DoogiAdult_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 22
+      spriteId: e37aeed8b5658f846a8487a4deea608c
+    - name: DoogiAdult_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 28
+        height: 21
+      spriteId: c811bae06aedd9a42a1a4fa8e53de3ac
+    - name: DoogiAdult_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 28
+        height: 21
+      spriteId: c1a133d475d5fee41b1fd2952554131c
+    - name: DoogiAdult_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 28
+        height: 21
+      spriteId: eef5159748bd82b4ba3822a932485bb4
+    - name: DoogiAdult_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 28
+        height: 21
+      spriteId: 4680c053f9ac9464a9cde8f5735a50f0
+    - name: DoogiAdult_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 28
+        height: 21
+      spriteId: 4eec884aa94280e47baaed4a056154f7
+    - name: DoogiAdult_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 28
+        height: 21
+      spriteId: 4ff5dda6410a5d542b40967de6679f15
+    - name: DoogiAdult_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 28
+        height: 21
+      spriteId: 4c15835d799738145914da8809ef3a0b
+    - name: DoogiAdult_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 28
+        height: 21
+      spriteId: 875e466a4c9983c479c1d1a203d81a0a
+    - name: DoogiAdult_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 28
+        height: 21
+      spriteId: 90d8c492e1002424cb5ffa0659ab03d6
+    - name: DoogiAdult_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 28
+        height: 21
+      spriteId: 3927d6e4d5803b941b089e3b4c7b82a8
+    - name: DoogiAdult_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 28
+        height: 21
+      spriteId: 1a5a976e0b21f4244bb3642b6d34ef44
+    - name: DoogiAdult_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 23
+      spriteId: 69c8b0da21580bb4b89ee286d49a6b9d
+    - name: DoogiAdult_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 23
+      spriteId: b3d65e1aa3c753a408f62a5e12a6616f
+    - name: DoogiAdult_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 23
+      spriteId: a09404e89c1a72140911220f7c75abd4
+    - name: DoogiAdult_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 23
+      spriteId: e38eb89372221bf42881efff38bdfcb0
+    - name: DoogiAdult_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 23
+      spriteId: 2cc5a5e87e7c70e4682540a66e0d9a02
+    - name: DoogiAdult_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 23
+      spriteId: 4f00ff45aaf93d745a82b3c4e5990ccc
+    - name: DoogiAdult_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 23
+      spriteId: fb35d3696f287204e9a31662e207c3c0
+    - name: DoogiAdult_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 23
+      spriteId: b1acbe4e321c2a64c9b7323e987ce049
+    - name: DoogiAdult_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 23
+      spriteId: 1718741eb3c880c409a3f84409f27820
+    - name: DoogiAdult_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 0
+        width: 26
+        height: 23
+      spriteId: 0a725ba4106422f478f6206ef5f42320
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}

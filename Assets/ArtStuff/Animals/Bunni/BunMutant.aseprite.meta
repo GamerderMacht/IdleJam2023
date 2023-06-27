@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638233962755452409
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: BunMutant
+  - name: BunMutant_Frame_0
     originalName: 
     pivot: {x: 0.5, y: -0.17391305}
     alignment: 9
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 30
       height: 23
-    spriteID: f8a34c2117e7b0a4fba41e5ccaf31c3e
+    spriteID: bbd25f9c7d98aaa4da4bda3b36e7cf7b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,6 +139,586 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: BunMutant_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 4
+      width: 30
+      height: 23
+    spriteID: cdca6a87cd3948545af51e3e220aa55a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 4}
+  - name: BunMutant_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 4
+      width: 30
+      height: 23
+    spriteID: ce7090ab5de3bc840918e222b87082ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 4}
+  - name: BunMutant_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 4
+      width: 30
+      height: 23
+    spriteID: fdb4e66b8ff13b6499b1bb7fa576161a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 4}
+  - name: BunMutant_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 4
+      width: 30
+      height: 23
+    spriteID: 5d886b33d8e32b441890e28254ad1f02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 4}
+  - name: BunMutant_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 4
+      width: 30
+      height: 23
+    spriteID: 4205de88d9b22d341a0fc2caa5ce3e02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 4}
+  - name: BunMutant_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 35
+      width: 30
+      height: 23
+    spriteID: cdb3893d9aa2a8f4f84f8b0ff269b41a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 35}
+  - name: BunMutant_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 35
+      width: 30
+      height: 23
+    spriteID: 559a9d0ab09563b4ea040573b218a3f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 35}
+  - name: BunMutant_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 35
+      width: 30
+      height: 23
+    spriteID: e9138a034193743469b75acdffce2ea0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 35}
+  - name: BunMutant_Frame_9
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 35
+      width: 30
+      height: 23
+    spriteID: 017c7464da4cdad4c8f09d1e7d2fa0bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 35}
+  - name: BunMutant_Frame_10
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 35
+      width: 30
+      height: 23
+    spriteID: 8257cfe5625afea44971bcec6876a151
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 35}
+  - name: BunMutant_Frame_11
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 35
+      width: 30
+      height: 23
+    spriteID: f987949bc84f7fa41ab1f496f3747ccc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 35}
+  - name: BunMutant_Frame_12
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 66
+      width: 30
+      height: 23
+    spriteID: e4e3592bcb66bb041ae8a30c4b6dba75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 66}
+  - name: BunMutant_Frame_13
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 66
+      width: 30
+      height: 23
+    spriteID: 1df78d65520c1be45baa4ab650b6f8cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 66}
+  - name: BunMutant_Frame_14
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 66
+      width: 30
+      height: 23
+    spriteID: 740d6c1af74c81040b60ffe0e75c9ea0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 66}
+  - name: BunMutant_Frame_15
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 66
+      width: 30
+      height: 23
+    spriteID: 7357d2ae6b3efa64984ff2b08887eb1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 66}
+  - name: BunMutant_Frame_16
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 66
+      width: 30
+      height: 23
+    spriteID: f86a2b0c990738748b7cc7249a1aa201
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 66}
+  - name: BunMutant_Frame_17
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 66
+      width: 30
+      height: 23
+    spriteID: a88b828e7c988a5419be92d3cf200cef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 66}
+  - name: BunMutant_Frame_18
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 97
+      width: 30
+      height: 23
+    spriteID: 47621e35407b5434581b76e1bde14676
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 97}
+  - name: BunMutant_Frame_19
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 97
+      width: 30
+      height: 23
+    spriteID: 7185b8d8b83a33942b2068d8f9766baa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 97}
+  - name: BunMutant_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 97
+      width: 30
+      height: 22
+    spriteID: 29f2c64394a1a1c4e9e2de3ca069dc80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 97}
+  - name: BunMutant_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 97
+      width: 30
+      height: 22
+    spriteID: 51d307b7a32ce824baf1cdcf4ce24e3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 97}
+  - name: BunMutant_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 97
+      width: 30
+      height: 22
+    spriteID: da9f70e4a57958f438da94d3dbd469b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 97}
+  - name: BunMutant_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 97
+      width: 30
+      height: 22
+    spriteID: 774218787099af641bd27d34642ca7b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 97}
+  - name: BunMutant_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 128
+      width: 30
+      height: 22
+    spriteID: 24dede9f3d1ab0d458af077a57959201
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 128}
+  - name: BunMutant_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 128
+      width: 30
+      height: 22
+    spriteID: 84a6e9289b2a6144b9aa6e007938ef56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 128}
+  - name: BunMutant_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 30
+      height: 22
+    spriteID: d888fdea893a11d4d89e700273a8a6f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 128}
+  - name: BunMutant_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 128
+      width: 30
+      height: 22
+    spriteID: 64f167969e49f654786e9c08a3be6945
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 128}
+  - name: BunMutant_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 128
+      width: 30
+      height: 22
+    spriteID: 41f62bbb0d2f2b4468fb0d852afde452
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 128}
+  - name: BunMutant_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 128
+      width: 30
+      height: 22
+    spriteID: b2c8f943e2e50f54387f96b55a4ac55b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 128}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -148,65 +728,249 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: BunMutant
+    - name: BunMutant_Frame_0
       frameIndex: 0
       cellRect:
         x: 1
         y: 4
         width: 30
         height: 23
-      spriteId: f8a34c2117e7b0a4fba41e5ccaf31c3e
+      spriteId: bbd25f9c7d98aaa4da4bda3b36e7cf7b
+    - name: BunMutant_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 23
+      spriteId: cdca6a87cd3948545af51e3e220aa55a
+    - name: BunMutant_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 23
+      spriteId: ce7090ab5de3bc840918e222b87082ad
+    - name: BunMutant_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 23
+      spriteId: fdb4e66b8ff13b6499b1bb7fa576161a
+    - name: BunMutant_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 23
+      spriteId: 5d886b33d8e32b441890e28254ad1f02
+    - name: BunMutant_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 23
+      spriteId: 4205de88d9b22d341a0fc2caa5ce3e02
+    - name: BunMutant_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 23
+      spriteId: cdb3893d9aa2a8f4f84f8b0ff269b41a
+    - name: BunMutant_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 23
+      spriteId: 559a9d0ab09563b4ea040573b218a3f7
+    - name: BunMutant_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 23
+      spriteId: e9138a034193743469b75acdffce2ea0
+    - name: BunMutant_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 4
+        width: 30
+        height: 23
+      spriteId: 017c7464da4cdad4c8f09d1e7d2fa0bf
+    - name: BunMutant_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 4
+        width: 30
+        height: 23
+      spriteId: 8257cfe5625afea44971bcec6876a151
+    - name: BunMutant_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 4
+        width: 30
+        height: 23
+      spriteId: f987949bc84f7fa41ab1f496f3747ccc
+    - name: BunMutant_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 4
+        width: 30
+        height: 23
+      spriteId: e4e3592bcb66bb041ae8a30c4b6dba75
+    - name: BunMutant_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 4
+        width: 30
+        height: 23
+      spriteId: 1df78d65520c1be45baa4ab650b6f8cc
+    - name: BunMutant_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 4
+        width: 30
+        height: 23
+      spriteId: 740d6c1af74c81040b60ffe0e75c9ea0
+    - name: BunMutant_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 4
+        width: 30
+        height: 23
+      spriteId: 7357d2ae6b3efa64984ff2b08887eb1e
+    - name: BunMutant_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 4
+        width: 30
+        height: 23
+      spriteId: f86a2b0c990738748b7cc7249a1aa201
+    - name: BunMutant_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 4
+        width: 30
+        height: 23
+      spriteId: a88b828e7c988a5419be92d3cf200cef
+    - name: BunMutant_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 4
+        width: 30
+        height: 23
+      spriteId: 47621e35407b5434581b76e1bde14676
+    - name: BunMutant_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 4
+        width: 30
+        height: 23
+      spriteId: 7185b8d8b83a33942b2068d8f9766baa
+    - name: BunMutant_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 22
+      spriteId: 29f2c64394a1a1c4e9e2de3ca069dc80
+    - name: BunMutant_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 22
+      spriteId: 51d307b7a32ce824baf1cdcf4ce24e3a
+    - name: BunMutant_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 22
+      spriteId: da9f70e4a57958f438da94d3dbd469b5
+    - name: BunMutant_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 22
+      spriteId: 774218787099af641bd27d34642ca7b0
+    - name: BunMutant_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 22
+      spriteId: 24dede9f3d1ab0d458af077a57959201
+    - name: BunMutant_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 22
+      spriteId: 84a6e9289b2a6144b9aa6e007938ef56
+    - name: BunMutant_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 22
+      spriteId: d888fdea893a11d4d89e700273a8a6f3
+    - name: BunMutant_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 22
+      spriteId: 64f167969e49f654786e9c08a3be6945
+    - name: BunMutant_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 22
+      spriteId: 41f62bbb0d2f2b4468fb0d852afde452
+    - name: BunMutant_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 1
+        y: 4
+        width: 30
+        height: 22
+      spriteId: b2c8f943e2e50f54387f96b55a4ac55b
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}

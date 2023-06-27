@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8006096557945305053
+--- !u!1001 &6614367883288541290
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -34,11 +34,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: dee181e4f1e92a7448d0f9119aa6f371, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.12
+      value: -0.8558161
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: dee181e4f1e92a7448d0f9119aa6f371, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.43
+      value: -2.0792031
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: dee181e4f1e92a7448d0f9119aa6f371, type: 3}
       propertyPath: m_LocalPosition.z
@@ -75,5 +75,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: dee181e4f1e92a7448d0f9119aa6f371, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2350795498724384015}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: dee181e4f1e92a7448d0f9119aa6f371, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -79579516358587838}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: dee181e4f1e92a7448d0f9119aa6f371, type: 3}
+--- !u!1 &4283639971926355714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: dee181e4f1e92a7448d0f9119aa6f371, type: 3}
+  m_PrefabInstance: {fileID: 6614367883288541290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2350795498724384015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4283639971926355714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53b309081bb4ec4388af68af9e3efad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinProductionMultiplier: 5
+  coinProductionSpeedDecrease: 2
+--- !u!114 &-79579516358587838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4283639971926355714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9ba62ca636e3894f8ff7d58da4c2a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mutationSprite: {fileID: 2492445026330950029, guid: 93ec68a9a203eea4abb923414813d3cc, type: 3}
+  multiplierBonus: 6
+  afkTimerBonus: 3
+  mutationMultiplierBonus: 7
+  mutationAfkTimerBonus: 8
