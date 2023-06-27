@@ -3245,7 +3245,7 @@ MonoBehaviour:
   coins: 0
   baseCoinGain: 1
   afkCoinGain: 0
-  baseCoinGainDelay: 5
+  baseCoinGainDelay: 4
   afkCoinGainDelay: 5
   coinTxt: {fileID: 2127668527}
   mutationText: {fileID: 932859584}

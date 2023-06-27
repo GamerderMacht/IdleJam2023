@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c53b309081bb4ec4388af68af9e3efad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinProductionMultiplier: 2
-  coinProductionSpeedDecrease: 1
+  coinProductionMultiplier: 5
+  coinProductionSpeedDecrease: 5
 --- !u!114 &1078755851107291198
 MonoBehaviour:
   m_ObjectHideFlags: 0
