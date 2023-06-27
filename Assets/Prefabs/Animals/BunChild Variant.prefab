@@ -78,30 +78,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 5f3139956b348a14b91ba897e8dfb605, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7827291340236677239}
+      addedObject: {fileID: -5220371784602133723}
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 5f3139956b348a14b91ba897e8dfb605, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -5220371784602133723}
+      addedObject: {fileID: -5324291648772799112}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 5f3139956b348a14b91ba897e8dfb605, type: 3}
 --- !u!1 &6890466278413985676 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 5f3139956b348a14b91ba897e8dfb605, type: 3}
   m_PrefabInstance: {fileID: 4550788204694057188}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7827291340236677239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6890466278413985676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c53b309081bb4ec4388af68af9e3efad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coinProductionMultiplier: 4
-  coinProductionSpeedDecrease: 2
 --- !u!114 &-5220371784602133723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,8 +100,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ba62ca636e3894f8ff7d58da4c2a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mutationSprite: {fileID: 5804629311641357929, guid: 3a57e5ce46b712f40a4c2c4cc4e65074, type: 3}
-  multiplierBonus: 5
-  afkTimerBonus: 3
-  mutationMultiplierBonus: 0
-  mutationAfkTimerBonus: 0
+  nextMutation: {fileID: 172040541359884773, guid: 3a57e5ce46b712f40a4c2c4cc4e65074, type: 3}
+  mutationLevel: 0
+  multiplierBonus: 10
+  afkTimerBonus: 0
+  maxMutation: 0
+--- !u!61 &-5324291648772799112
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6890466278413985676}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.039999995, y: 0.14}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.7222222, y: -0.5}
+    oldSize: {x: 0.18, y: 0.14}
+    newSize: {x: 0.18, y: 0.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.18, y: 0.14000002}
+  m_EdgeRadius: 0

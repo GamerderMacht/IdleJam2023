@@ -3242,7 +3242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mutationCount: 0
-  coins: 0
+  coins: 1
   baseCoinGain: 1
   afkCoinGain: 0
   baseCoinGainDelay: 4

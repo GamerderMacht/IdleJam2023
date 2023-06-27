@@ -22,7 +22,7 @@ public class AudioPlayerScript : MonoBehaviour
 
     private void Update() {
         currentTime -= Time.deltaTime;
-        Debug.Log("current time "+ currentTime);
+        //Debug.Log("current time "+ currentTime);
 
         if(currentTime <= 0)
         {

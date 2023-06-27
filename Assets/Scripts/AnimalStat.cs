@@ -7,22 +7,25 @@ public class AnimalStat : MonoBehaviour
     AnimalStatBonus animalStatBonus;
     CoinManager coinManager;
     ShopItemButton shopItemButton;
-    public SpriteRenderer mutationSprite;
-    int mutationLevel = 1;
+    private SpriteRenderer spriteRenderer;
+    public GameObject nextMutation;
+    public int mutationLevel = 0;
     public float multiplierBonus;
     public float afkTimerBonus;
-    public float mutationMultiplierBonus;
-    public float mutationAfkTimerBonus;
+    public bool maxMutation;
 
     void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         coinManager = FindObjectOfType<CoinManager>();
         animalStatBonus = FindObjectOfType<AnimalStatBonus>();
+
         ApplyAnimalBonus();
+
     }
 
     // This is the method to be called on click
-    public void OnObjectClick()
+    public void OnMouseDown()
     {
 
         Mutate();
@@ -32,28 +35,20 @@ public class AnimalStat : MonoBehaviour
 
     public void Mutate()
     {
-        if (coinManager.mutationCount > 0)
+        mutationLevel++;
+        if (coinManager.mutationCount > 0 && !maxMutation)
         {   
             coinManager.mutationCount--;
             coinManager.UpdateCanvas();
+ 
+            Instantiate(nextMutation, this.transform.position, Quaternion.identity);
+            Debug.Log("Mutate worked");
+            Destroy(gameObject); 
 
-            switch (mutationLevel) {
-                case 1:
-                    mutationLevel++;
-                    break;
-                case 2:
-                    mutationLevel++;
-                    break;
-                case 3:
-                    mutationLevel++;
-                    break;
-                case 4:
-                    Debug.Log("Reached maximum mutation level!");
-                    break;
-            }
-
-            //AnimalGameobjectSprite = NewMutationGameObjectSprite
-            //animalStats.ApplyMutationBonus
+        }
+        else if (maxMutation)
+        {
+            Debug.Log("Max Mutation");
         }
         else
         {
@@ -67,15 +62,5 @@ public class AnimalStat : MonoBehaviour
         animalStatBonus.coinProductionSpeedDecrease += afkTimerBonus;
     }
 
-    void ApplyAnimalMutationBonus()
-    {
-        if (mutationLevel < 3)
-        {
-            animalStatBonus.coinProductionMultiplier += mutationMultiplierBonus;
-            animalStatBonus.coinProductionSpeedDecrease += mutationAfkTimerBonus;
-        } else {
-            Debug.Log("Reached maximum mutation level!");
-        }
-    }
 
 }
