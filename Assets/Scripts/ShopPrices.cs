@@ -5,7 +5,7 @@ using TMPro;
 
 public class ShopPrices : MonoBehaviour
 {
-    public TextMeshPro[] priceText;
+    public TextMeshProUGUI[] priceText;
     public int[] prices;
 
     
@@ -17,6 +17,14 @@ public class ShopPrices : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        UpdateShopPriceUI();
+    }
+
+    void UpdateShopPriceUI()
+    {
+          for (int i = 0; i < prices.Length; i++) 
+        {
+            priceText[i].GetComponent<TextMeshProUGUI>().text = prices[i].ToString() + " Enerlifes";
+        }
     }
 }
