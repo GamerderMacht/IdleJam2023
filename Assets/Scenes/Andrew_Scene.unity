@@ -821,7 +821,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f7cf14b6f64f00e4eaeea3a62dc74ccb, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.148
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1375,7 +1375,7 @@ GameObject:
   - component: {fileID: 746683412}
   m_Layer: 0
   m_Name: Music
-  m_TagString: Untagged
+  m_TagString: MusicManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3248,7 +3248,7 @@ MonoBehaviour:
   baseCoinGainDelay: 4
   afkCoinGainDelay: 5
   coinTxt: {fileID: 2127668527}
-  mutationText: {fileID: 932859584}
+  mutationPoints: {fileID: 932859584}
 --- !u!222 &3002803213875869334
 CanvasRenderer:
   m_ObjectHideFlags: 0

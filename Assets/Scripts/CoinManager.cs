@@ -15,7 +15,7 @@ public class CoinManager : MonoBehaviour
     public float baseCoinGainDelay = 5;
     public float afkCoinGainDelay = 5;
     public TextMeshProUGUI coinTxt;
-    [SerializeField] TextMeshProUGUI mutationText;
+    [SerializeField] public TextMeshProUGUI mutationPoints;
 
     void Awake()
     {
@@ -34,7 +34,7 @@ public class CoinManager : MonoBehaviour
     {
         animalStatBonus = FindObjectOfType<AnimalStatBonus>();
         coinTxt.text = "0";
-        mutationText.text = "0";
+        mutationPoints.text = "0";
         //finds the gameobject text component if not assigned in inspector
         //if(coinTxt == null) GameObject.FindWithTag("CoinNumber").GetComponent<TextMeshPro>();
         StartCoroutine(CoinFarm());
@@ -45,7 +45,7 @@ public class CoinManager : MonoBehaviour
     }
     public void Click() //Handles the player receiving coins by clicking on plants
     {
-        coins += 100000;
+        coins += 1;
         //coinTxt.text = coins.ToString();
     }
     IEnumerator CoinFarm() //handles the coins the player gets over time
@@ -65,6 +65,6 @@ public class CoinManager : MonoBehaviour
     public void UpdateCanvas()
     {
         coinTxt.text = coins.ToString();
-       //mutationText.text = mutationPoints.ToString();
+       mutationPoints.text = mutationCount.ToString();
     }
 }

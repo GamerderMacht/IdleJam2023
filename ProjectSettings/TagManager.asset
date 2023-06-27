@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CoinNumber
   - MutationNumber
+  - MusicManager
   layers:
   - Default
   - TransparentFX
