@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638233962755452409
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,298 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: BirbAdult
+  - name: BirbAdult_Frame_0
     originalName: 
     pivot: {x: 0.5416667, y: -0.107142866}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 70
+      y: 76
+      width: 24
+      height: 28
+    spriteID: 29851dc2d8ff12845886b8c9fe500fa2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 76}
+  - name: BirbAdult_Frame_1
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 112
+      width: 24
+      height: 28
+    spriteID: ecf2e10a47ecbb54cb6455e8e2ec14e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 112}
+  - name: BirbAdult_Frame_2
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 148
+      width: 24
+      height: 28
+    spriteID: 0c147b002db2af94180384c3b17cd46d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 148}
+  - name: BirbAdult_Frame_3
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 184
+      width: 24
+      height: 28
+    spriteID: 5f832d0e01ffca546a430436081a0576
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 184}
+  - name: BirbAdult_Frame_4
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 220
+      width: 24
+      height: 28
+    spriteID: e91e13bc96be99545915abdc296ab40d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 220}
+  - name: BirbAdult_Frame_5
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
       y: 4
       width: 24
       height: 28
-    spriteID: 53d1adbc74f0cf541be37b4efcb36445
+    spriteID: 6d603876fc2bddd42bbd65ff8b929706
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 4}
+  - name: BirbAdult_Frame_6
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 40
+      width: 24
+      height: 28
+    spriteID: 6bf1a40fb67bfb940a8e1e2a3c28e5dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 40}
+  - name: BirbAdult_Frame_7
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 76
+      width: 24
+      height: 28
+    spriteID: e529ece00b69bfc44b44cfa526906de2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 76}
+  - name: BirbAdult_Frame_8
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 112
+      width: 24
+      height: 28
+    spriteID: 5d725aac1acf49a488ff303e8a85951d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 112}
+  - name: BirbAdult_Frame_9
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 148
+      width: 24
+      height: 28
+    spriteID: 543de660379587a4f8c2ea798b174910
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 148}
+  - name: BirbAdult_Frame_10
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 184
+      width: 24
+      height: 28
+    spriteID: 9956e990b2b166f48b13f35a4f8cc91b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 184}
+  - name: BirbAdult_Frame_11
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 220
+      width: 24
+      height: 28
+    spriteID: afa0bc9ed4e6ba640b7021f48ba66dce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 220}
+  - name: BirbAdult_Frame_12
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 4
+      width: 24
+      height: 28
+    spriteID: 37af84d0aa6818940893bcde023c6bbb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 4}
+  - name: BirbAdult_Frame_13
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 40
+      width: 24
+      height: 28
+    spriteID: bd8265d71ecdc234ea352d8c5156a5c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 40}
+  - name: BirbAdult_Frame_14
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 25
+      height: 28
+    spriteID: 41ae9b7c3856aea4498a3e14d20a3684
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,6 +419,306 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: BirbAdult_Frame_15
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 40
+      width: 25
+      height: 28
+    spriteID: 072980d3fcd217b47bbf4902958964d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 40}
+  - name: BirbAdult_Frame_16
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 76
+      width: 25
+      height: 28
+    spriteID: ddca187cd3e238e49923ce0aeb6fe796
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 76}
+  - name: BirbAdult_Frame_17
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 112
+      width: 25
+      height: 28
+    spriteID: 14f0239fe2505a44695cab91fba8852f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 112}
+  - name: BirbAdult_Frame_18
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 148
+      width: 25
+      height: 28
+    spriteID: 754ea0a518ccc8d49bb4f5a695f84205
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 148}
+  - name: BirbAdult_Frame_19
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 184
+      width: 25
+      height: 28
+    spriteID: 3a5ef136330a0ce41b4724ab0e75444b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 184}
+  - name: BirbAdult_Frame_20
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 220
+      width: 25
+      height: 28
+    spriteID: ade85c2104a466345897d6185aadd907
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 220}
+  - name: BirbAdult_Frame_21
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 4
+      width: 25
+      height: 28
+    spriteID: bbd13e8ebe8a704478be7e8deeac8e0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 4}
+  - name: BirbAdult_Frame_22
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 40
+      width: 25
+      height: 28
+    spriteID: 12347ba28d6228a45acf6b9a4be9a69e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 40}
+  - name: BirbAdult_Frame_23
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 76
+      width: 25
+      height: 28
+    spriteID: 3f77eba0a68c7aa458ca07f70d17bb4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 76}
+  - name: BirbAdult_Frame_24
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 112
+      width: 25
+      height: 28
+    spriteID: c6ac32512fd67874bbfc172639ddbec0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 112}
+  - name: BirbAdult_Frame_25
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 148
+      width: 25
+      height: 28
+    spriteID: 63c90b7f1ea85d049a689c1cc4dd6f36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 148}
+  - name: BirbAdult_Frame_26
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 184
+      width: 25
+      height: 28
+    spriteID: dc8b87af29f81b441a632d27b27cb93a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 184}
+  - name: BirbAdult_Frame_27
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 220
+      width: 25
+      height: 28
+    spriteID: 0faa6193aae2c4d47938825d75d2cc2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 220}
+  - name: BirbAdult_Frame_28
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 4
+      width: 25
+      height: 28
+    spriteID: fd205cfec3acf5d42aa9119f5a0f605e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 4}
+  - name: BirbAdult_Frame_29
+    originalName: 
+    pivot: {x: 0.56, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 40
+      width: 25
+      height: 28
+    spriteID: 25d32db4daa7f4747a7dc3c747837fcd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 40}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -148,65 +728,249 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: BirbAdult
+    - name: BirbAdult_Frame_0
       frameIndex: 0
       cellRect:
         x: 3
         y: 3
         width: 24
         height: 28
-      spriteId: 53d1adbc74f0cf541be37b4efcb36445
+      spriteId: 29851dc2d8ff12845886b8c9fe500fa2
+    - name: BirbAdult_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: ecf2e10a47ecbb54cb6455e8e2ec14e3
+    - name: BirbAdult_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: 0c147b002db2af94180384c3b17cd46d
+    - name: BirbAdult_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: 5f832d0e01ffca546a430436081a0576
+    - name: BirbAdult_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: e91e13bc96be99545915abdc296ab40d
+    - name: BirbAdult_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: 6d603876fc2bddd42bbd65ff8b929706
+    - name: BirbAdult_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: 6bf1a40fb67bfb940a8e1e2a3c28e5dd
+    - name: BirbAdult_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: e529ece00b69bfc44b44cfa526906de2
+    - name: BirbAdult_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: 5d725aac1acf49a488ff303e8a85951d
+    - name: BirbAdult_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: 543de660379587a4f8c2ea798b174910
+    - name: BirbAdult_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: 9956e990b2b166f48b13f35a4f8cc91b
+    - name: BirbAdult_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: afa0bc9ed4e6ba640b7021f48ba66dce
+    - name: BirbAdult_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: 37af84d0aa6818940893bcde023c6bbb
+    - name: BirbAdult_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 3
+        y: 3
+        width: 24
+        height: 28
+      spriteId: bd8265d71ecdc234ea352d8c5156a5c2
+    - name: BirbAdult_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: 41ae9b7c3856aea4498a3e14d20a3684
+    - name: BirbAdult_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: 072980d3fcd217b47bbf4902958964d8
+    - name: BirbAdult_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: ddca187cd3e238e49923ce0aeb6fe796
+    - name: BirbAdult_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: 14f0239fe2505a44695cab91fba8852f
+    - name: BirbAdult_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: 754ea0a518ccc8d49bb4f5a695f84205
+    - name: BirbAdult_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: 3a5ef136330a0ce41b4724ab0e75444b
+    - name: BirbAdult_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: ade85c2104a466345897d6185aadd907
+    - name: BirbAdult_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: bbd13e8ebe8a704478be7e8deeac8e0d
+    - name: BirbAdult_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: 12347ba28d6228a45acf6b9a4be9a69e
+    - name: BirbAdult_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: 3f77eba0a68c7aa458ca07f70d17bb4a
+    - name: BirbAdult_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: c6ac32512fd67874bbfc172639ddbec0
+    - name: BirbAdult_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: 63c90b7f1ea85d049a689c1cc4dd6f36
+    - name: BirbAdult_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: dc8b87af29f81b441a632d27b27cb93a
+    - name: BirbAdult_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: 0faa6193aae2c4d47938825d75d2cc2d
+    - name: BirbAdult_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: fd205cfec3acf5d42aa9119f5a0f605e
+    - name: BirbAdult_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 28
+      spriteId: 25d32db4daa7f4747a7dc3c747837fcd
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}

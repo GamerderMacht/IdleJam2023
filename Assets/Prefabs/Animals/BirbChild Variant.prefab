@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &5274860004350472309
+--- !u!1001 &3391412690227097697
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -34,11 +34,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 2487cfcd211c89a45aec9d2d68de61bf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.6965642
+      value: -0.72919536
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 2487cfcd211c89a45aec9d2d68de61bf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8930295
+      value: -2.0084417
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 2487cfcd211c89a45aec9d2d68de61bf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -75,5 +75,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 2487cfcd211c89a45aec9d2d68de61bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5602819464455033165}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 2487cfcd211c89a45aec9d2d68de61bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1078755851107291198}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 2487cfcd211c89a45aec9d2d68de61bf, type: 3}
+--- !u!1 &5740058245729560329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 2487cfcd211c89a45aec9d2d68de61bf, type: 3}
+  m_PrefabInstance: {fileID: 3391412690227097697}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-5602819464455033165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5740058245729560329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53b309081bb4ec4388af68af9e3efad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinProductionMultiplier: 2
+  coinProductionSpeedDecrease: 1
+--- !u!114 &1078755851107291198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5740058245729560329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9ba62ca636e3894f8ff7d58da4c2a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mutationSprite: {fileID: 2124024505059290347, guid: eb421f54faeb1904dac83badd3c70796, type: 3}
+  multiplierBonus: 3
+  afkTimerBonus: 3
+  mutationMultiplierBonus: 0
+  mutationAfkTimerBonus: 0

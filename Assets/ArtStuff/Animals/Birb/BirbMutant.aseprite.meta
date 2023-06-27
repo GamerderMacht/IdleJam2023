@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638233962755447452
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: BirbMutant
+  - name: BirbMutant_Frame_0
     originalName: 
     pivot: {x: 0.52, y: -0.11538462}
     alignment: 9
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 25
       height: 26
-    spriteID: 69c8b0ab175e77744a7a36d724280c73
+    spriteID: b0c7281958eb94749aa7f4d64769a640
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,6 +139,586 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: BirbMutant_Frame_1
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 38
+      width: 25
+      height: 26
+    spriteID: bc7dda3e6ff37cf4fa18d0878faaf577
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 38}
+  - name: BirbMutant_Frame_2
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 72
+      width: 25
+      height: 26
+    spriteID: cdd66366e2c72e043b4e054364b875e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 72}
+  - name: BirbMutant_Frame_3
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 106
+      width: 25
+      height: 26
+    spriteID: 5a63d7bfd83780f409c62c3e2b078a09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 106}
+  - name: BirbMutant_Frame_4
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 25
+      height: 26
+    spriteID: 40b8167b11a8fc942973d94a3f45a8fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  - name: BirbMutant_Frame_5
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 174
+      width: 25
+      height: 26
+    spriteID: 39d7a6d3c1d637847a3138f99d9fafe9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 174}
+  - name: BirbMutant_Frame_6
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 208
+      width: 25
+      height: 26
+    spriteID: 699e8479b900f1a4aad27d55ae0423f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 208}
+  - name: BirbMutant_Frame_7
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 4
+      width: 25
+      height: 26
+    spriteID: 0750195977c430d488a7fa21bd37faa9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 4}
+  - name: BirbMutant_Frame_8
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 38
+      width: 25
+      height: 26
+    spriteID: 8e1618752fc623a41a8681a047849db1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 38}
+  - name: BirbMutant_Frame_9
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 72
+      width: 25
+      height: 26
+    spriteID: 0022e1fec74f0ba47957c67ee4c1aebc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 72}
+  - name: BirbMutant_Frame_10
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 106
+      width: 25
+      height: 26
+    spriteID: f4e203444e5cf8e408d60067e9cf420b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 106}
+  - name: BirbMutant_Frame_11
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 140
+      width: 25
+      height: 26
+    spriteID: 6e2a934fdefba5948bb44eb68d201e53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 140}
+  - name: BirbMutant_Frame_12
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 174
+      width: 25
+      height: 26
+    spriteID: c5f452ffde480b948981c5a9541532f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 174}
+  - name: BirbMutant_Frame_13
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 208
+      width: 25
+      height: 26
+    spriteID: 17022299dca11414daffe2589d14a226
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 208}
+  - name: BirbMutant_Frame_14
+    originalName: 
+    pivot: {x: 0.52, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 4
+      width: 25
+      height: 26
+    spriteID: 2ae4a681d6013cd49b602a54b13756f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 4}
+  - name: BirbMutant_Frame_15
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 38
+      width: 25
+      height: 25
+    spriteID: 56b2462860208594ab0b49ff9d7bcabd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 38}
+  - name: BirbMutant_Frame_16
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 71
+      width: 25
+      height: 25
+    spriteID: d2f27f918cdfda649a70e7f3a4faa892
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 71}
+  - name: BirbMutant_Frame_17
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 104
+      width: 25
+      height: 25
+    spriteID: cd95f17b3c3842d458d83479cfa72153
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 104}
+  - name: BirbMutant_Frame_18
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 137
+      width: 25
+      height: 25
+    spriteID: 3306f54087363e249b56292052910a18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 137}
+  - name: BirbMutant_Frame_19
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 170
+      width: 25
+      height: 25
+    spriteID: 9fdaefcc0a1b2d24b8b71eb4012cd452
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 170}
+  - name: BirbMutant_Frame_20
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 203
+      width: 25
+      height: 25
+    spriteID: 2d7465d02f06b6944acc6dd93397723c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 203}
+  - name: BirbMutant_Frame_21
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 4
+      width: 25
+      height: 25
+    spriteID: 3df1962a161419a44be6d506e7bc1d5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 4}
+  - name: BirbMutant_Frame_22
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 37
+      width: 25
+      height: 25
+    spriteID: b5d13cc1ab0ccb042b508c97306102f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 37}
+  - name: BirbMutant_Frame_23
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 70
+      width: 25
+      height: 25
+    spriteID: 6ad5a6e90d440414ab0a2f54b76916da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 70}
+  - name: BirbMutant_Frame_24
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 103
+      width: 25
+      height: 25
+    spriteID: 87449b62d3ac9d248873b86848eff9ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 103}
+  - name: BirbMutant_Frame_25
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 136
+      width: 25
+      height: 25
+    spriteID: 2dd0d0ac88c9a8f4b8a6e6d86af3c0b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 136}
+  - name: BirbMutant_Frame_26
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 169
+      width: 25
+      height: 25
+    spriteID: 00d652ddc73937b42b22dfb2f81fadf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 169}
+  - name: BirbMutant_Frame_27
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 202
+      width: 25
+      height: 25
+    spriteID: 7c13e247b1b84d24c846ab346bf09c3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 202}
+  - name: BirbMutant_Frame_28
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 4
+      width: 25
+      height: 25
+    spriteID: 20a0b54bdd40a8e48b0c11f79a382eb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 4}
+  - name: BirbMutant_Frame_29
+    originalName: 
+    pivot: {x: 0.56, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 37
+      width: 25
+      height: 25
+    spriteID: f210c2a8770acb242a640c2470794179
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 37}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -148,65 +728,249 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: BirbMutant
+    - name: BirbMutant_Frame_0
       frameIndex: 0
       cellRect:
         x: 3
         y: 3
         width: 25
         height: 26
-      spriteId: 69c8b0ab175e77744a7a36d724280c73
+      spriteId: b0c7281958eb94749aa7f4d64769a640
+    - name: BirbMutant_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: bc7dda3e6ff37cf4fa18d0878faaf577
+    - name: BirbMutant_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: cdd66366e2c72e043b4e054364b875e7
+    - name: BirbMutant_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: 5a63d7bfd83780f409c62c3e2b078a09
+    - name: BirbMutant_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: 40b8167b11a8fc942973d94a3f45a8fa
+    - name: BirbMutant_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: 39d7a6d3c1d637847a3138f99d9fafe9
+    - name: BirbMutant_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: 699e8479b900f1a4aad27d55ae0423f5
+    - name: BirbMutant_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: 0750195977c430d488a7fa21bd37faa9
+    - name: BirbMutant_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: 8e1618752fc623a41a8681a047849db1
+    - name: BirbMutant_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: 0022e1fec74f0ba47957c67ee4c1aebc
+    - name: BirbMutant_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: f4e203444e5cf8e408d60067e9cf420b
+    - name: BirbMutant_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: 6e2a934fdefba5948bb44eb68d201e53
+    - name: BirbMutant_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: c5f452ffde480b948981c5a9541532f0
+    - name: BirbMutant_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: 17022299dca11414daffe2589d14a226
+    - name: BirbMutant_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      spriteId: 2ae4a681d6013cd49b602a54b13756f3
+    - name: BirbMutant_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 56b2462860208594ab0b49ff9d7bcabd
+    - name: BirbMutant_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: d2f27f918cdfda649a70e7f3a4faa892
+    - name: BirbMutant_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: cd95f17b3c3842d458d83479cfa72153
+    - name: BirbMutant_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 3306f54087363e249b56292052910a18
+    - name: BirbMutant_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 9fdaefcc0a1b2d24b8b71eb4012cd452
+    - name: BirbMutant_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 2d7465d02f06b6944acc6dd93397723c
+    - name: BirbMutant_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 3df1962a161419a44be6d506e7bc1d5a
+    - name: BirbMutant_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: b5d13cc1ab0ccb042b508c97306102f6
+    - name: BirbMutant_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 6ad5a6e90d440414ab0a2f54b76916da
+    - name: BirbMutant_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 87449b62d3ac9d248873b86848eff9ed
+    - name: BirbMutant_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 2dd0d0ac88c9a8f4b8a6e6d86af3c0b4
+    - name: BirbMutant_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 00d652ddc73937b42b22dfb2f81fadf3
+    - name: BirbMutant_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 7c13e247b1b84d24c846ab346bf09c3e
+    - name: BirbMutant_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 20a0b54bdd40a8e48b0c11f79a382eb4
+    - name: BirbMutant_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 2
+        y: 3
+        width: 25
+        height: 25
+      spriteId: f210c2a8770acb242a640c2470794179
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
