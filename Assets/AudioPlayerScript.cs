@@ -22,8 +22,9 @@ public class AudioPlayerScript : MonoBehaviour
 
     private void Update() {
         currentTime -= Time.deltaTime;
+        Debug.Log("current time "+ currentTime);
 
-        if(timer <= 0)
+        if(currentTime <= 0)
         {
             if(animalSpawned)
             {

@@ -119,7 +119,7 @@ public class ShopItemButton : MonoBehaviour
 
     public void BuyMutation()
     {
-        coinManager.mutationCount++;
+        coinManager.mutationCount += 100;
     }
 
     public void BuyPlant(int buttonIndex)
@@ -183,6 +183,7 @@ public class ShopItemButton : MonoBehaviour
         if (plantsBought == 3)
         {
             Instantiate(animals[0], animalSpawnPoints[0].transform.position, Quaternion.identity);
+            GameObject.FindGameObjectWithTag("MusicManager").GetComponent<AudioPlayerScript>().animalSpawned = true;
         }
 
         if (plantsBought == 6)
