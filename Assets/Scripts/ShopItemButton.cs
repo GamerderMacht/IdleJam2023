@@ -71,41 +71,21 @@ public class ShopItemButton : MonoBehaviour
 
             switch (buttonIndex)
             {
-                case 0:
-                Debug.Log("Bought from Plant 1");
-                BuyPlant(buttonIndex);
-                cost = NewPrice(shopPrices.prices[buttonIndex]);
-                break;
-                case 1:
-                Debug.Log("Bought from Plant 2");
-                BuyPlant(buttonIndex);
-                cost = NewPrice(shopPrices.prices[buttonIndex]);
-                break;
-                case 2:
-                Debug.Log("Bought from Plant 3");
-                BuyPlant(buttonIndex);
-                cost = NewPrice(shopPrices.prices[buttonIndex]);
-                break;
-                case 3:
-                Debug.Log("Bought from Plant 4");
-                BuyPlant(buttonIndex);
-                cost = NewPrice(shopPrices.prices[buttonIndex]);
-                break;
-                case 4:
-                Debug.Log("Bought from Plant 5");
-                BuyPlant(buttonIndex);
-                cost = NewPrice(shopPrices.prices[buttonIndex]);
-                break;
-                case 5:
-                Debug.Log("Bought from Plant 6");
-                BuyPlant(buttonIndex);
-                cost = NewPrice(shopPrices.prices[buttonIndex]);
-                break;
+                case 0: case 1: case 2: case 3: case 4: case 5:
+                    Debug.Log("Bought from Plant " + buttonIndex);
+                    BuyPlant(buttonIndex);
+                    cost = NewPrice(shopPrices.prices[buttonIndex]);
+                    shopPrices.prices[buttonIndex] = cost;
+                    Debug.Log("New price is " + cost);
+                    break;
+                
                 case 6:
-                Debug.Log("Bought from Mutation");
-                BuyMutation();
-                cost = NewPrice(shopPrices.prices[buttonIndex]);
-                break;
+                    Debug.Log("Bought from Mutation");
+                    BuyMutation();
+                    cost = NewPrice(shopPrices.prices[buttonIndex]);
+                    shopPrices.prices[buttonIndex] = cost;
+                    Debug.Log("New price is " + cost);
+                    break;
             }
 
             Debug.Log("Item bought!");
@@ -172,10 +152,9 @@ public class ShopItemButton : MonoBehaviour
 
     int NewPrice(int currentCost)
     {
-        float cost = currentCost * 1.1f;
-        Debug.Log(shopPrices.prices[buttonIndex]);
-        return Mathf.RoundToInt(shopPrices.prices[buttonIndex]);
-
+        float newCost = currentCost * 1.1f;
+        Debug.Log(newCost);
+        return Mathf.RoundToInt(newCost);
     }
 
     void SpawnAnimal()
